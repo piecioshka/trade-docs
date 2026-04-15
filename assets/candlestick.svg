@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" font-family="Arial, sans-serif" font-size="13">
+  <!-- Tło -->
+  <rect width="520" height="340" fill="#fafafa" rx="8"/>
+
+  <!-- Tytuł -->
+  <text x="260" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Budowa świecy japońskiej</text>
+
+  <!-- === ŚWIECA WZROSTOWA (zielona) === -->
+  <!-- Górny knot -->
+  <line x1="130" y1="60" x2="130" y2="120" stroke="#16a34a" stroke-width="2"/>
+  <!-- Korpus -->
+  <rect x="105" y="120" width="50" height="100" fill="#16a34a" rx="2"/>
+  <!-- Dolny knot -->
+  <line x1="130" y1="220" x2="130" y2="290" stroke="#16a34a" stroke-width="2"/>
+
+  <!-- Etykiety świecy wzrostowej -->
+  <text x="130" y="310" text-anchor="middle" font-size="14" font-weight="bold" fill="#16a34a">Wzrostowa</text>
+
+  <!-- Linie pomocnicze + opisy (lewa strona) -->
+  <!-- High -->
+  <line x1="55" y1="60" x2="120" y2="60" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="50" y="64" text-anchor="end" font-size="12" fill="#555">High</text>
+
+  <!-- Close (góra korpusu = zamknięcie przy wzrostowej) -->
+  <line x1="55" y1="120" x2="105" y2="120" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="50" y="124" text-anchor="end" font-size="12" fill="#555">Close</text>
+
+  <!-- Open (dół korpusu = otwarcie przy wzrostowej) -->
+  <line x1="55" y1="220" x2="105" y2="220" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="50" y="224" text-anchor="end" font-size="12" fill="#555">Open</text>
+
+  <!-- Low -->
+  <line x1="55" y1="290" x2="120" y2="290" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="50" y="294" text-anchor="end" font-size="12" fill="#555">Low</text>
+
+  <!-- Strzałki z opisami (między świecami) -->
+  <!-- Górny knot opis -->
+  <line x1="165" y1="64" x2="165" y2="113" stroke="#666" stroke-width="1"/>
+  <!-- Grot górny (w górę) -->
+  <path d="M161,68 L165,60 L169,68" fill="none" stroke="#666" stroke-width="1"/>
+  <!-- Grot dolny (w dół) -->
+  <path d="M161,109 L165,117 L169,109" fill="none" stroke="#666" stroke-width="1"/>
+  <text x="175" y="93" font-size="11" fill="#666">Górny knot</text>
+  <text x="175" y="106" font-size="10" fill="#888">(upper shadow)</text>
+
+  <!-- Korpus opis -->
+  <text x="175" y="173" font-size="11" fill="#666">Korpus (body)</text>
+
+  <!-- Dolny knot opis -->
+  <line x1="165" y1="227" x2="165" y2="286" stroke="#666" stroke-width="1"/>
+  <!-- Grot górny (w górę) -->
+  <path d="M161,231 L165,223 L169,231" fill="none" stroke="#666" stroke-width="1"/>
+  <!-- Grot dolny (w dół) -->
+  <path d="M161,282 L165,290 L169,282" fill="none" stroke="#666" stroke-width="1"/>
+  <text x="175" y="255" font-size="11" fill="#666">Dolny knot</text>
+  <text x="175" y="268" font-size="10" fill="#888">(lower shadow)</text>
+
+  <!-- === ŚWIECA SPADKOWA (czerwona) === -->
+  <!-- Górny knot -->
+  <line x1="370" y1="60" x2="370" y2="120" stroke="#dc2626" stroke-width="2"/>
+  <!-- Korpus -->
+  <rect x="345" y="120" width="50" height="100" fill="#dc2626" rx="2"/>
+  <!-- Dolny knot -->
+  <line x1="370" y1="220" x2="370" y2="290" stroke="#dc2626" stroke-width="2"/>
+
+  <!-- Etykiety świecy spadkowej -->
+  <text x="370" y="310" text-anchor="middle" font-size="14" font-weight="bold" fill="#dc2626">Spadkowa</text>
+
+  <!-- Linie pomocnicze + opisy (prawa strona) -->
+  <!-- High -->
+  <line x1="395" y1="60" x2="450" y2="60" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="455" y="64" font-size="12" fill="#555">High</text>
+
+  <!-- Open (góra korpusu = otwarcie przy spadkowej) -->
+  <line x1="395" y1="120" x2="450" y2="120" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="455" y="124" font-size="12" fill="#555">Open</text>
+
+  <!-- Close (dół korpusu = zamknięcie przy spadkowej) -->
+  <line x1="395" y1="220" x2="450" y2="220" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="455" y="224" font-size="12" fill="#555">Close</text>
+
+  <!-- Low -->
+  <line x1="395" y1="290" x2="450" y2="290" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="455" y="294" font-size="12" fill="#555">Low</text>
+
+</svg>
