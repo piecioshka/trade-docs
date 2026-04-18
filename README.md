@@ -1,6 +1,6 @@
 # Trade Docs — Kompendium wiedzy o tradingu
 
-<!-- npx md-to-pdf trade-docs-pl.md -->
+<!-- npx md-to-pdf README.md -->
 
 > Zbiór notatek edukacyjnych dotyczących tradingu, instrumentów finansowych
 > (CFD, ETF, akcje, surowce) oraz praktycznych aspektów inwestowania
