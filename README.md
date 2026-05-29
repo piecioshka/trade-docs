@@ -105,9 +105,9 @@ Spot (rynek kasowy) to transakcja, w której kupno i sprzedaż instrumentu finan
 
 Spread to różnica między ceną kupna (ask) a ceną sprzedaży (bid) danego instrumentu.
 
-- **Bid** — cena, po której możesz sprzedać instrument.
-- **Ask** — cena, po której możesz kupić instrument.
-- **Spread = Ask - Bid**
+- **Bid** — cena, po której możesz sprzedać instrument (z perspektywy inwestora).
+- **Ask** — cena, po której możesz kupić instrument (z perspektywy inwestora).
+- **Spread = Ask - Bid** (Ask jest zawsze wyższy niż Bid).
 
 Im mniejszy spread, tym niższy koszt transakcji dla tradera. Spread jest de facto prowizją brokera.
 
@@ -115,12 +115,12 @@ Im mniejszy spread, tym niższy koszt transakcji dla tradera. Spread jest de fac
 
 Spread na metalach szlachetnych zależy od brokera, pory dnia i płynności rynku. Orientacyjne wartości:
 
-| Metal | Typowy spread |
-|-------|---------------|
-| Złoto (GOLD/XAUUSD) | 0.3–0.5 USD |
+| Metal                  | Typowy spread |
+| ---------------------- | ------------- |
+| Złoto (GOLD/XAUUSD)    | 0.3–0.5 USD   |
 | Srebro (SILVER/XAGUSD) | 0.03–0.05 USD |
-| Platyna (PLATINUM) | 1.5–3.0 USD |
-| Pallad (PALLADIUM) | 3.0–8.0 USD |
+| Platyna (PLATINUM)     | 1.5–3.0 USD   |
+| Pallad (PALLADIUM)     | 3.0–8.0 USD   |
 
 Uwaga: spread może się znacząco poszerzać w godzinach nocnych, podczas ważnych publikacji makroekonomicznych lub w okresach niskiej płynności.
 
@@ -134,6 +134,7 @@ Open Interest (OI) to łączna liczba otwartych (nierozliczonych) kontraktów na
 - **OI nie zmienia się**, gdy jeden trader zamyka pozycję, a drugi ją przejmuje.
 
 Zastosowanie:
+
 - Rosnący OI + rosnąca cena = silny trend wzrostowy.
 - Rosnący OI + spadająca cena = silny trend spadkowy.
 - Malejący OI = trend słabnie, możliwa zmiana kierunku.
@@ -143,11 +144,13 @@ Zastosowanie:
 ### Co to jest pips / lot?
 
 **Pips** (Percentage in Point) — najmniejsza jednostka zmiany ceny instrumentu.
+
 - Na rynku Forex dla większości par walutowych 1 pips = 0.0001 (czwarte miejsce po przecinku).
 - Dla par z jenem (JPY) 1 pips = 0.01 (drugie miejsce po przecinku).
 - Przykład: jeśli EUR/USD zmieni się z 1.1000 na 1.1001 — to zmiana o 1 pips.
 
 **Lot** — standardowa jednostka wielkości transakcji.
+
 - **1 lot standardowy** = 100 000 jednostek waluty bazowej.
 - **1 mini lot** = 10 000 jednostek.
 - **1 mikro lot** = 1 000 jednostek.
@@ -161,6 +164,7 @@ Lewar (leverage / dźwignia finansowa) pozwala kontrolować dużą pozycję przy
 - **Dźwignia 1:30** oznacza, że wpłacasz 1 000 PLN, a kontrolujesz pozycję wartą 30 000 PLN.
 
 Korzyści i ryzyka:
+
 - Dźwignia **zwielokrotnia zyski**, ale tak samo **zwielokrotnia straty**.
 - Przy dźwigni 1:10 ruch ceny o 1% w Twoją stronę daje 10% zysku, ale ruch o 1% przeciw Tobie to 10% straty.
 - W UE maksymalna dźwignia dla klientów detalicznych to 1:30 (regulacje ESMA).
@@ -176,12 +180,12 @@ Korzyści i ryzyka:
 
 **Indeks** — to tylko **miara statystyczna**, np. WIG20, S&P 500, NASDAQ-100. Nie można go bezpośrednio kupić.
 
-| Cecha | Indeks | ETF |
-|-------|--------|-----|
-| Czy można kupić? | Nie (to tylko wskaźnik) | Tak (notowany na giełdzie) |
-| Koszty | Brak (nie jest instrumentem) | Opłata za zarządzanie (TER) |
-| Dywidendy | Nie wypłaca | Może wypłacać lub reinwestować |
-| Przykład | S&P 500 | SPDR S&P 500 ETF (SPY) |
+| Cecha            | Indeks                       | ETF                            |
+| ---------------- | ---------------------------- | ------------------------------ |
+| Czy można kupić? | Nie (to tylko wskaźnik)      | Tak (notowany na giełdzie)     |
+| Koszty           | Brak (nie jest instrumentem) | Opłata za zarządzanie (TER)    |
+| Dywidendy        | Nie wypłaca                  | Może wypłacać lub reinwestować |
+| Przykład         | S&P 500                      | SPDR S&P 500 ETF (SPY)         |
 
 ### Co to jest iShares przy ETFach?
 
@@ -199,6 +203,7 @@ Korzyści i ryzyka:
 Hedging (zabezpieczanie) to strategia polegająca na otwieraniu pozycji przeciwstawnej w celu ograniczenia ryzyka strat.
 
 Przykłady:
+
 - Masz akcje spółki X i boisz się spadków — kupujesz opcję put na tę spółkę. Jeśli cena spadnie, zysk z opcji kompensuje stratę na akcjach.
 - Eksporter otrzyma płatność w USD za 3 miesiące — sprzedaje kontrakty futures na USD, by zabezpieczyć się przed spadkiem kursu dolara.
 - Posiadasz portfel akcji europejskich — kupujesz ETF short na indeks, by zabezpieczyć się przed ogólnymi spadkami rynku.
@@ -212,11 +217,13 @@ Hedging nie eliminuje ryzyka całkowicie, ale **ogranicza potencjalną stratę**
 Rolowanie to proces przeniesienia pozycji z wygasającego kontraktu terminowego (futures) na kontrakt z późniejszą datą wygaśnięcia.
 
 Jak to wygląda w praktyce:
+
 1. Zbliża się data wygaśnięcia kontraktu, np. futures na ropę czerwiec 2026.
 2. Zamykasz pozycję na kontrakcie czerwcowym.
 3. Otwierasz nową pozycję na kontrakcie lipcowym (lub późniejszym).
 
 Dlaczego to ważne:
+
 - Kontrakty futures mają **datę wygaśnięcia** — nie możesz ich trzymać w nieskończoność.
 - Przy rolowaniu może wystąpić różnica w cenie między starym a nowym kontraktem.
 - U brokerów CFD (np. XTB) rolowanie często odbywa się **automatycznie**, a różnica w cenie jest rozliczana jako korekta na koncie.
@@ -226,11 +233,13 @@ Dlaczego to ważne:
 To dwa stany opisujące relację między ceną spot a cenami kontraktów futures.
 
 **Contango** — cena futures jest **wyższa** niż cena spot.
+
 - Sytuacja "normalna" na wielu rynkach (np. surowce), bo przechowywanie towaru kosztuje.
 - Rolowanie w contango generuje **stratę** — sprzedajesz tańszy kontrakt, kupujesz droższy.
 - Przykład: ropa spot 70 USD, kontrakt na za miesiąc 72 USD.
 
 **Backwardation** — cena futures jest **niższa** niż cena spot.
+
 - Występuje, gdy rynek oczekuje spadku cen lub jest wysoki popyt na natychmiastową dostawę.
 - Rolowanie w backwardation generuje **zysk** — sprzedajesz droższy kontrakt, kupujesz tańszy.
 - Przykład: ropa spot 70 USD, kontrakt na za miesiąc 68 USD.
@@ -249,16 +258,17 @@ Wybór brokera zależy od tego, czym chcesz handlować i jakie masz potrzeby. Po
 
 Nie ma jednego "najlepszego" brokera — zależy od indywidualnych potrzeb. Na co zwrócić uwagę:
 
-| Kryterium | Co sprawdzić |
-|-----------|-------------|
-| Regulacja | Czy broker jest nadzorowany (KNF, CySEC, FCA, BaFin)? |
-| Koszty | Spread, prowizje, opłaty za przewalutowanie, opłata za brak aktywności |
-| Oferta | Jakie instrumenty są dostępne (akcje, ETF, CFD, Forex)? |
-| Platforma | Czy platforma jest intuicyjna? Czy ma aplikację mobilną? |
-| Wypłaty | Jak szybko i tanio można wypłacić środki? |
-| Edukacja | Czy broker oferuje materiały edukacyjne? |
+| Kryterium | Co sprawdzić                                                           |
+| --------- | ---------------------------------------------------------------------- |
+| Regulacja | Czy broker jest nadzorowany (KNF, CySEC, FCA, BaFin)?                  |
+| Koszty    | Spread, prowizje, opłaty za przewalutowanie, opłata za brak aktywności |
+| Oferta    | Jakie instrumenty są dostępne (akcje, ETF, CFD, Forex)?                |
+| Platforma | Czy platforma jest intuicyjna? Czy ma aplikację mobilną?               |
+| Wypłaty   | Jak szybko i tanio można wypłacić środki?                              |
+| Edukacja  | Czy broker oferuje materiały edukacyjne?                               |
 
 Popularne wybory wśród polskich inwestorów:
+
 - **XTB** — polski broker, 0% prowizji na akcjach i ETF (do 100 000 EUR/mies.), regulowany przez KNF.
 - **DEGIRO** — niskie prowizje, szeroka oferta ETF, regulowany w Holandii.
 - **Interactive Brokers** — profesjonalny broker, ogromna oferta instrumentów, niskie prowizje, ale bardziej skomplikowana platforma.
@@ -270,16 +280,19 @@ Popularne wybory wśród polskich inwestorów:
 Najważniejsze wskaźniki w raportach finansowych spółek:
 
 **Rachunek zysków i strat:**
+
 - **Revenue / Sales (przychody)** — ile spółka zarobiła ze sprzedaży.
 - **Net Income (zysk netto)** — ile zostało po odjęciu wszystkich kosztów i podatków.
 - **EPS (Earnings Per Share)** — zysk netto podzielony przez liczbę akcji. Pokazuje, ile zysku przypada na jedną akcję. Np. zysk netto 1 mld PLN / 500 mln akcji = EPS 2 PLN.
 
 **Porównywanie z oczekiwaniami:**
+
 - Przed publikacją wyników analitycy podają **konsensus** (prognozę).
 - Jeśli wynik jest **powyżej konsensusu** = "beat" (pozytywne zaskoczenie).
 - Jeśli wynik jest **poniżej konsensusu** = "miss" (rozczarowanie).
 
 **Inne ważne wskaźniki:**
+
 - **P/E (Price to Earnings)** — cena akcji / EPS. Mówi, ile lat zysku płacisz za spółkę.
 - **P/S (Price to Sales)** — cena / przychody. Używany dla spółek, które jeszcze nie generują zysku.
 - **EBITDA** — zysk operacyjny przed amortyzacją, odsetkami i podatkami. Pokazuje rentowność podstawowej działalności.
@@ -329,11 +342,13 @@ Makler papierów wartościowych to osoba posiadająca licencję uprawniającą d
 ### Czy polecacie zdanie egzaminu?
 
 Argumenty za:
+
 - Zdobywasz solidną wiedzę o rynkach finansowych, niezależnie od tego, czy będziesz pracować jako makler.
 - Licencja otwiera drzwi do pracy w branży finansowej.
 - Przygotowanie do egzaminu to intensywny kurs z finansów, prawa i rachunkowości.
 
 Argumenty przeciw:
+
 - Egzamin jest trudny i wymaga kilku miesięcy nauki.
 - Jeśli nie planujesz kariery w branży finansowej, licencja nie jest konieczna do inwestowania na własny rachunek.
 - Wiedza z egzaminu jest dość teoretyczna — praktyczne umiejętności inwestycyjne zdobywa się na rynku.
@@ -360,14 +375,14 @@ W tych sesjach handel odbywa się na platformach ECN (Electronic Communication N
 
 ### Różnice między pre/after-market a regularnym rynkiem
 
-| Cecha | Regularna sesja | Pre/After-market |
-|-------|----------------|-----------------|
-| Płynność | Wysoka | Niska |
-| Spread | Niski | Szeroki |
-| Wolumen | Duży | Mały |
-| Zmienność | Normalna | Może być bardzo wysoka |
-| Typy zleceń | Wszystkie | Zazwyczaj tylko zlecenia z limitem (limit orders) |
-| Uczestnicy | Wszyscy inwestorzy | Głównie instytucje i aktywni traderzy |
+| Cecha       | Regularna sesja    | Pre/After-market                                  |
+| ----------- | ------------------ | ------------------------------------------------- |
+| Płynność    | Wysoka             | Niska                                             |
+| Spread      | Niski              | Szeroki                                           |
+| Wolumen     | Duży               | Mały                                              |
+| Zmienność   | Normalna           | Może być bardzo wysoka                            |
+| Typy zleceń | Wszystkie          | Zazwyczaj tylko zlecenia z limitem (limit orders) |
+| Uczestnicy  | Wszyscy inwestorzy | Głównie instytucje i aktywni traderzy             |
 
 ### Zalety handlu w pre/after-market
 
@@ -412,7 +427,7 @@ Nie zawsze, ale zazwyczaj tak. Zależy od kontekstu:
 ### Strategie handlu na rynku o mniejszej płynności
 
 - **Używaj zleceń z limitem (limit orders)** — nigdy zleceń market. Zlecenie limit gwarantuje, że nie kupisz/sprzedasz po gorszej cenie niż ustalona
-- **Handluj w godzinach największej aktywności** — na GPW to godziny 09:30-16:30, na rynkach US to godziny otwarcia i zamknięcia sesji
+- **Handluj w godzinach największej aktywności** — na GPW sesja ciągła trwa 8:30-17:05 (największa aktywność tuż po otwarciu i przed zamknięciem), na rynkach US to godziny otwarcia i zamknięcia sesji
 - **Zmniejsz wielkość pozycji** — duże zlecenie na mało płynnym rynku samo przesuwa cenę przeciwko Tobie
 - **Dziel duże zlecenia** — zamiast jednego zlecenia na 1000 akcji, złóż 5 zleceń po 200 akcji w odstępach czasowych
 - **Poszerzaj Stop Loss** — na mało płynnym rynku knoty świec są dłuższe, więc SL ustawiony zbyt blisko zostanie łatwo aktywowany
@@ -421,14 +436,14 @@ Nie zawsze, ale zazwyczaj tak. Zależy od kontekstu:
 
 ### Różnice między rynkiem o mniejszej a większej płynności
 
-| Cecha | Wysoka płynność | Niska płynność |
-|-------|----------------|----------------|
-| Spread | Wąski (np. 0,01 USD) | Szeroki (np. 0,50 USD) |
-| Slippage | Minimalny | Może być znaczący |
-| Realizacja zleceń | Natychmiastowa | Może trwać dłużej |
-| Zmienność | Stabilniejsza | Gwałtowne skoki |
-| Wielkość pozycji | Duże zlecenia bez problemu | Duże zlecenia przesuwają cenę |
-| Przykłady | EUR/USD, S&P 500, Apple | Małe spółki GPW, egzotyczne waluty |
+| Cecha             | Wysoka płynność            | Niska płynność                     |
+| ----------------- | -------------------------- | ---------------------------------- |
+| Spread            | Wąski (np. 0,01 USD)       | Szeroki (np. 0,50 USD)             |
+| Slippage          | Minimalny                  | Może być znaczący                  |
+| Realizacja zleceń | Natychmiastowa             | Może trwać dłużej                  |
+| Zmienność         | Stabilniejsza              | Gwałtowne skoki                    |
+| Wielkość pozycji  | Duże zlecenia bez problemu | Duże zlecenia przesuwają cenę      |
+| Przykłady         | EUR/USD, S&P 500, Apple    | Małe spółki GPW, egzotyczne waluty |
 
 ---
 
@@ -456,27 +471,28 @@ Masz prawo głosu na walnym zgromadzeniu, dostajesz dywidendy. Żeby kupić
 
 ### CFD — kontrakt na różnicę kursową
 
-CFD (*Contract for Difference*) to **umowa między Tobą a brokerem** (w tym
+CFD (_Contract for Difference_) to **umowa między Tobą a brokerem** (w tym
 przypadku XTB). Nie kupujesz akcji, ropy ani złota — stawiasz na to, czy cena
 **wzrośnie** czy **spadnie**. Twój zysk lub strata to różnica między ceną
 otwarcia a zamknięcia pozycji.
 
 ### Kluczowe różnice na pierwszy rzut oka
 
-| Cecha | Akcje (rzeczywiste) | CFD |
-|---|---|---|
-| **Własność** | Stajesz się właścicielem | Nie — to tylko kontrakt |
-| **Prawo głosu** | Tak | Nie |
-| **Dywidendy** | Otrzymujesz | Korekta dywidendowa (dodatnia przy LONG, ujemna przy SHORT) |
-| **Kierunek** | Tylko kupno (LONG) | Kupno (LONG) **i** sprzedaż (SHORT) |
-| **Dźwignia** | Brak — płacisz 100% | Tak — płacisz np. 10-50% wartości |
-| **Koszty utrzymania** | Brak (trzymasz ile chcesz) | Swap — opłata za każdą noc |
-| **Prowizja na XTB** | 0% do 100 000 EUR/mies., potem 0,2% (min. 10 EUR) | Spread + ewentualnie swap |
-| **Ryzyko** | Stracisz max tyle, ile zainwestowałeś | Dźwignia potęguje straty — możesz stracić więcej niż depozyt (XTB ma ochronę przed ujemnym saldem) |
+| Cecha                 | Akcje (rzeczywiste)                               | CFD                                                                                                |
+| --------------------- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Własność**          | Stajesz się właścicielem                          | Nie — to tylko kontrakt                                                                            |
+| **Prawo głosu**       | Tak                                               | Nie                                                                                                |
+| **Dywidendy**         | Otrzymujesz                                       | Korekta dywidendowa (dodatnia przy LONG, ujemna przy SHORT)                                        |
+| **Kierunek**          | Tylko kupno (LONG)                                | Kupno (LONG) **i** sprzedaż (SHORT)                                                                |
+| **Dźwignia**          | Brak — płacisz 100%                               | Tak — płacisz np. 10-50% wartości                                                                  |
+| **Koszty utrzymania** | Brak (trzymasz ile chcesz)                        | Swap — opłata za każdą noc                                                                         |
+| **Prowizja na XTB**   | 0% do 100 000 EUR/mies., potem 0,2% (min. 10 EUR) | Spread + ewentualnie swap                                                                          |
+| **Ryzyko**            | Stracisz max tyle, ile zainwestowałeś             | Dźwignia potęguje straty — możesz stracić więcej niż depozyt (XTB ma ochronę przed ujemnym saldem) |
 
 ### Co to znaczy w praktyce?
 
 Wyobraź sobie, że chcesz „zainwestować" w ropę naftową:
+
 - **Akcje** — nie możesz kupić baryłki ropy na giełdzie tak po prostu
 - **CFD** — otwierasz kontrakt na cenę ropy. Jeśli ropa kosztuje 70 USD
   i uważasz, że wzrośnie — klikasz BUY. Jeśli cena wzrośnie do 75 USD —
@@ -498,6 +514,7 @@ Zanim przejdziesz dalej, poznaj terminy, które zobaczysz na platformie xStation
 **Spread** to różnica między ceną kupna (ASK) a ceną sprzedaży (BID).
 
 Przykład: ropa WTI na platformie pokazuje:
+
 - BID: 70,00 USD (cena, po której możesz sprzedać)
 - ASK: 70,03 USD (cena, po której możesz kupić)
 - **Spread: 0,03 USD**
@@ -530,14 +547,14 @@ swojego depozytu!
 **Limity dźwigni na XTB** (zgodne z regulacją ESMA dla klientów detalicznych
 w UE):
 
-| Instrument | Maksymalna dźwignia | Depozyt |
-|---|---|---|
-| Główne pary walutowe (np. EUR/USD) | 1:30 | 3,33% |
-| Pozostałe pary walutowe | 1:20 | 5% |
-| Główne indeksy (np. S&P 500) | 1:20 | 5% |
-| Surowce (np. ropa, złoto) | 1:10 | 10% |
-| Akcje CFD | 1:5 | 20% |
-| Kryptowaluty | 1:2 | 50% |
+| Instrument                         | Maksymalna dźwignia | Depozyt |
+| ---------------------------------- | ------------------- | ------- |
+| Główne pary walutowe (np. EUR/USD) | 1:30                | 3,33%   |
+| Pozostałe pary walutowe, złoto     | 1:20                | 5%      |
+| Główne indeksy (np. S&P 500)       | 1:20                | 5%      |
+| Surowce poza złotem (np. ropa)     | 1:10                | 10%     |
+| Akcje CFD                          | 1:5                 | 20%     |
+| Kryptowaluty                       | 1:2                 | 50%     |
 
 **Dlaczego takie limity?** ESMA (Europejski Urząd Nadzoru Giełd i Papierów
 Wartościowych) wprowadziła te ograniczenia w 2018 roku, aby chronić
@@ -556,10 +573,15 @@ To kwota, którą musisz mieć na koncie, żeby utrzymać otwartą pozycję. Nie
 to opłata — to „kaucja", która jest blokowana na czas trwania transakcji.
 
 Dwa ważne poziomy:
-- **Margin Call** (80%) — ostrzeżenie, że Twój depozyt się kurczy. Powinieneś
-  dokładać środki lub zamknąć część pozycji
-- **Margin Stop** (50%) — XTB automatycznie zamyka Twoje pozycje, żebyś nie
-  stracił więcej niż masz na koncie
+
+- **Margin Call** (Margin Level ok. 100%) — ostrzeżenie, że Twój depozyt się
+  kurczy. Powinieneś dokładać środki lub zamknąć część pozycji
+- **Stop Out / Margin Stop** (Margin Level 50%) — XTB automatycznie zamyka
+  Twoje pozycje (zaczynając od tej z największą stratą), żebyś nie stracił
+  więcej niż masz na koncie
+
+> **Margin Level** = Equity / Used Margin × 100% — wskaźnik „zdrowia" konta.
+> Dla bezpieczeństwa warto utrzymywać go znacznie powyżej progów (np. 200–500%).
 
 **Jak działa Margin Stop w praktyce?**
 
@@ -581,12 +603,13 @@ Protection), co oznacza, że nie możesz stracić więcej niż masz na koncie.
 ### Swap (punkty swapowe)
 
 **Swap** to opłata (lub przychód) za utrzymanie pozycji przez noc. Naliczany
-jest codziennie ok. godziny 00:00.
+jest codziennie ok. północy czasu platformy (zazwyczaj 22:00–23:59 GMT).
 
 Dlaczego istnieje? Bo CFD to instrument lewarowany — broker „pożycza" Ci
 pieniądze na utrzymanie pozycji. Za tę pożyczkę płacisz odsetki.
 
 Przykład (orientacyjny, wartości zmieniają się):
+
 - 1 lot EUR/USD, pozycja LONG: **-19,36 PLN za noc**
 - 1 lot EUR/USD, pozycja SHORT: **+0,39 PLN za noc**
 
@@ -755,20 +778,20 @@ kontraktu futures na jaki broker przechodzi. Krok po kroku:
    na giełdzie ICE (Intercontinental Exchange). Kontrakty futures mają
    oznaczenia składające się z symbolu instrumentu + kodu miesiąca + roku:
 
-   | Kod miesiąca | Miesiąc |
-   |---|---|
-   | F | styczeń |
-   | G | luty |
-   | H | marzec |
-   | J | kwiecień |
-   | K | maj |
-   | M | czerwiec |
-   | N | lipiec |
-   | Q | sierpień |
-   | U | wrzesień |
-   | V | październik |
-   | X | listopad |
-   | Z | grudzień |
+   | Kod miesiąca | Miesiąc     |
+   | ------------ | ----------- |
+   | F            | styczeń     |
+   | G            | luty        |
+   | H            | marzec      |
+   | J            | kwiecień    |
+   | K            | maj         |
+   | M            | czerwiec    |
+   | N            | lipiec      |
+   | Q            | sierpień    |
+   | U            | wrzesień    |
+   | V            | październik |
+   | X            | listopad    |
+   | Z            | grudzień    |
 
    Przykład: jeśli rolowanie 16 kwietnia dotyczy przejścia z kontraktu
    czerwcowego na lipcowy 2026, porównujesz kontrakty **BRN M26**
@@ -823,11 +846,11 @@ Załóżmy, że ropa kosztuje **70 USD za baryłkę** i uważasz, że cena wzro�
 
 ### Co się dzieje dalej?
 
-| Scenariusz | Cena ropy | Twój wynik | Przy depozycie 700 USD |
-|---|---|---|---|
-| Cena rośnie | 75 USD (+5 USD) | +500 USD (100 × 5) | +71% zysku |
-| Cena spada | 65 USD (-5 USD) | -500 USD (100 × 5) | -71% straty |
-| Cena spada mocno | 63 USD (-7 USD) | -700 USD (100 × 7) | -100% — Margin Stop! |
+| Scenariusz       | Cena ropy       | Twój wynik         | Przy depozycie 700 USD |
+| ---------------- | --------------- | ------------------ | ---------------------- |
+| Cena rośnie      | 75 USD (+5 USD) | +500 USD (100 × 5) | +71% zysku             |
+| Cena spada       | 65 USD (-5 USD) | -500 USD (100 × 5) | -71% straty            |
+| Cena spada mocno | 63 USD (-7 USD) | -700 USD (100 × 7) | -100% — Margin Stop!   |
 
 ### Specyfika ropy
 
@@ -879,10 +902,10 @@ słabych wynikach kwartalnych.
 
 ### Co się dzieje?
 
-| Scenariusz | Cena AAPL | Twój wynik |
-|---|---|---|
+| Scenariusz          | Cena AAPL         | Twój wynik         |
+| ------------------- | ----------------- | ------------------ |
 | Cena spada (dobrze) | 180 USD (-20 USD) | +200 USD (10 × 20) |
-| Cena rośnie (źle) | 210 USD (+10 USD) | -100 USD (10 × 10) |
+| Cena rośnie (źle)   | 210 USD (+10 USD) | -100 USD (10 × 10) |
 
 ### Specyfika akcji amerykańskich CFD
 
@@ -901,15 +924,15 @@ słabych wynikach kwartalnych.
 
 ### Różnica vs. prawdziwe akcje Apple na XTB
 
-| Cecha | Akcje AAPL.US | CFD AAPL.US |
-|---|---|---|
-| Własność | Tak | Nie |
-| Dźwignia | Brak | 1:5 |
-| SHORT | Nie | Tak |
-| Prowizja | 0% (do 100k EUR) | Spread |
-| Swap | Brak | Codziennie |
-| Dywidenda | Pełna | Korekta |
-| Do trzymania | Miesiące/lata | Dni/tygodnie |
+| Cecha        | Akcje AAPL.US    | CFD AAPL.US  |
+| ------------ | ---------------- | ------------ |
+| Własność     | Tak              | Nie          |
+| Dźwignia     | Brak             | 1:5          |
+| SHORT        | Nie              | Tak          |
+| Prowizja     | 0% (do 100k EUR) | Spread       |
+| Swap         | Brak             | Codziennie   |
+| Dywidenda    | Pełna            | Korekta      |
+| Do trzymania | Miesiące/lata    | Dni/tygodnie |
 
 ---
 
@@ -945,21 +968,21 @@ danych o cenach miedzi.
 - **Spread:** może być **wyższy** niż na akcjach US, bo polskie spółki mają
   mniejszą płynność
 - **Swap:** naliczany codziennie
-- **Godziny handlu:** godziny sesji GPW (09:00-17:00, z fixingami)
+- **Godziny handlu:** godziny sesji GPW — sesja ciągła 8:30-17:05 (z fixingiem otwarcia o 8:30 i dogrywką 17:05-17:15)
 - **Waluta:** PLN — brak ryzyka walutowego (w odróżnieniu od akcji US!)
 - **Liczba dostępnych spółek:** ograniczona do ~39 najpłynniejszych
 - **Dywidendy:** korekta dywidendowa, tak jak przy akcjach US CFD
 
 ### Różnica vs. prawdziwe akcje KGHM na XTB
 
-| Cecha | Akcje KGHM.PL | CFD KGHM.PL |
-|---|---|---|
-| Własność | Tak | Nie |
-| Dźwignia | Brak | 1:5 |
-| SHORT | Nie | Tak |
-| Prowizja | 0% (do 100k EUR) | Spread |
-| Waluta | PLN | PLN |
-| Dostępne spółki | 709 | ~39 |
+| Cecha           | Akcje KGHM.PL    | CFD KGHM.PL |
+| --------------- | ---------------- | ----------- |
+| Własność        | Tak              | Nie         |
+| Dźwignia        | Brak             | 1:5         |
+| SHORT           | Nie              | Tak         |
+| Prowizja        | 0% (do 100k EUR) | Spread      |
+| Waluta          | PLN              | PLN         |
+| Dostępne spółki | 709              | ~39         |
 
 ---
 
@@ -967,21 +990,21 @@ danych o cenach miedzi.
 
 ### Tabela porównawcza
 
-| Cecha | Ropa (OIL.WTI) | Akcja US (AAPL.US) | Akcja PL (KGHM.PL) |
-|---|---|---|---|
-| **Typ instrumentu** | Surowiec | Akcja CFD | Akcja CFD |
-| **Dźwignia** | 1:10 | 1:5 | 1:5 |
-| **Depozyt** | 10% | 20% | 20% |
-| **Waluta** | USD | USD | PLN |
-| **Ryzyko walutowe** | Tak (USD/PLN) | Tak (USD/PLN) | Nie |
-| **Spread** | Niski (płynny rynek) | Niski (duże spółki) | Wyższy (mniej płynny) |
-| **Swap** | Tak | Tak | Tak |
-| **Rolowanie** | Tak (co miesiąc) | Nie | Nie |
-| **Dywidendy** | Nie dotyczy | Korekta | Korekta |
-| **Godziny handlu** | ~24h (pon-pt) | 15:30-22:00 CET | 09:00-17:00 CET |
-| **Zmienność** | Bardzo wysoka | Wysoka | Średnia/wysoka |
-| **Dostępność SHORT** | Tak | Tak | Tak |
-| **Odpowiednik „prawdziwych" akcji** | Nie istnieje | Tak (0% prowizji) | Tak (0% prowizji) |
+| Cecha                               | Ropa (OIL.WTI)       | Akcja US (AAPL.US)  | Akcja PL (KGHM.PL)    |
+| ----------------------------------- | -------------------- | ------------------- | --------------------- |
+| **Typ instrumentu**                 | Surowiec             | Akcja CFD           | Akcja CFD             |
+| **Dźwignia**                        | 1:10                 | 1:5                 | 1:5                   |
+| **Depozyt**                         | 10%                  | 20%                 | 20%                   |
+| **Waluta**                          | USD                  | USD                 | PLN                   |
+| **Ryzyko walutowe**                 | Tak (USD/PLN)        | Tak (USD/PLN)       | Nie                   |
+| **Spread**                          | Niski (płynny rynek) | Niski (duże spółki) | Wyższy (mniej płynny) |
+| **Swap**                            | Tak                  | Tak                 | Tak                   |
+| **Rolowanie**                       | Tak (co miesiąc)     | Nie                 | Nie                   |
+| **Dywidendy**                       | Nie dotyczy          | Korekta             | Korekta               |
+| **Godziny handlu**                  | ~24h (pon-pt)        | 15:30-22:00 CET     | 8:30-17:05 CET        |
+| **Zmienność**                       | Bardzo wysoka        | Wysoka              | Średnia/wysoka        |
+| **Dostępność SHORT**                | Tak                  | Tak                 | Tak                   |
+| **Odpowiednik „prawdziwych" akcji** | Nie istnieje         | Tak (0% prowizji)   | Tak (0% prowizji)     |
 
 ### Kluczowe wnioski
 
@@ -1070,13 +1093,13 @@ z najczęstszych powodów strat wśród początkujących traderów.
 
 **Różnica między overtradingiem a regularnym handlem:**
 
-| Cecha | Regularny handel | Overtrading |
-|---|---|---|
-| Częstotliwość | Kilka transakcji dziennie/tygodniowo | Dziesiątki transakcji dziennie |
-| Podstawa decyzji | Analiza techniczna/fundamentalna | Emocje, przeczucia, FOMO |
-| Plan | Jasny SL, TP, uzasadnienie | Brak lub ignorowanie planu |
-| Emocje | Kontrolowane | Dominują (strach, chciwość, frustracja) |
-| Wyniki | Konsekwentne (nawet jeśli nie zawsze zyskowne) | Chaotyczne, narastające straty |
+| Cecha            | Regularny handel                               | Overtrading                             |
+| ---------------- | ---------------------------------------------- | --------------------------------------- |
+| Częstotliwość    | Kilka transakcji dziennie/tygodniowo           | Dziesiątki transakcji dziennie          |
+| Podstawa decyzji | Analiza techniczna/fundamentalna               | Emocje, przeczucia, FOMO                |
+| Plan             | Jasny SL, TP, uzasadnienie                     | Brak lub ignorowanie planu              |
+| Emocje           | Kontrolowane                                   | Dominują (strach, chciwość, frustracja) |
+| Wyniki           | Konsekwentne (nawet jeśli nie zawsze zyskowne) | Chaotyczne, narastające straty          |
 
 **Jak unikać overtradingu:**
 
@@ -1096,6 +1119,7 @@ z najczęstszych powodów strat wśród początkujących traderów.
 ### 6. Handel bez planu
 
 Przed otwarciem pozycji powinieneś wiedzieć:
+
 - **Dlaczego** wchodzisz? (analiza, nie „przeczucie")
 - **Gdzie** ustawiasz SL? (ile jesteś gotów stracić)
 - **Gdzie** ustawiasz TP? (kiedy realizujesz zysk)
