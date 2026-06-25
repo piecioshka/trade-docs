@@ -1161,3 +1161,7 @@ Przed otwarciem pozycji powinieneś wiedzieć:
 > kapitału. Przed rozpoczęciem handlu upewnij się, że rozumiesz wszystkie
 > ryzyka i koszty. Dane i przykłady liczbowe mają charakter poglądowy
 > i mogą nie odpowiadać aktualnym warunkom rynkowym.
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
