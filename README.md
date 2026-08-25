@@ -111,7 +111,12 @@ Spread to różnica między ceną kupna (ask) a ceną sprzedaży (bid) danego in
 - **Ask** — cena, po której możesz kupić instrument (z perspektywy inwestora).
 - **Spread = Ask - Bid** (Ask jest zawsze wyższy niż Bid).
 
-Im mniejszy spread, tym niższy koszt transakcji dla tradera. Spread jest de facto prowizją brokera.
+Im mniejszy spread, tym niższy koszt transakcji dla tradera. To, czy spread jest "prowizją brokera", zależy od modelu egzekucji:
+
+- **Market maker** (np. XTB na CFD) - broker sam kwotuje ceny i zarabia na spreadzie; osobnej prowizji zwykle nie ma. Spread jest wtedy de facto prowizją.
+- **ECN / STP** - broker przekazuje zlecenia na rynek międzybankowy. Spread jest rynkowy (na EUR/USD często 0-0,5 pipsa), ale dochodzi **osobna prowizja** za każdą transakcję.
+
+Porównując brokerów, licz **całkowity koszt** (spread + prowizja), a nie samą szerokość spreadu.
 
 ### Jaki jest spread na metalach?
 
