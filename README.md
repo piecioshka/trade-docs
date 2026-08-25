@@ -698,6 +698,34 @@ stracisz 2 USD na baryłce zamiast ryzykować dalsze spadki.
 **Analogia do akcji:** Identycznie jak zlecenie stop na GPW — po prostu na CFD
 jest to jeszcze ważniejsze ze względu na dźwignię.
 
+### Wielkość pozycji (position sizing)
+
+Zasada "ryzykuj 1-2% kapitału" nic nie daje, dopóki nie przeliczysz jej na
+wolumen. Kolejność jest zawsze taka sama: **najpierw poziom SL, potem wielkość
+pozycji** - nigdy odwrotnie. SL stawiasz tam, gdzie Twój scenariusz przestaje
+mieć sens, a kwotę ryzyka regulujesz wolumenem, nie przysuwaniem stopa.
+
+```
+wolumen (loty) = (kapitał × ryzyko %) / (odległość SL × wartość 1 jednostki ceny na 1 lot)
+```
+
+Przykłady:
+
+| Instrument | Kapitał    | Ryzyko 1% | Wejście | SL     | Odległość SL | 1 lot to       | Wolumen                  |
+| ---------- | ---------- | --------- | ------- | ------ | ------------ | -------------- | ------------------------ |
+| OIL.WTI    | 10 000 USD | 100 USD   | 70      | 68     | 2 USD        | 1 000 baryłek  | 100 / (2 × 1 000) = 0,05 |
+| EUR/USD    | 5 000 USD  | 50 USD    | 1,1000  | 1,0975 | 25 pipsów    | 10 USD za pips | 50 / (25 × 10) = 0,2     |
+| AAPL.US    | 5 000 USD  | 50 USD    | 200     | 210    | 10 USD       | 1 akcja        | 50 / (10 × 1) = 5        |
+
+Dwie rzeczy, które warto zauważyć:
+
+- **Dźwignia nie występuje we wzorze.** Dźwignia decyduje o tym, ile depozytu
+  zablokuje broker, a nie o tym, ile możesz stracić. Ryzyko to odległość SL
+  razy wolumen - i tyle
+- **Szerszy SL = mniejsza pozycja, nie większa strata.** Jeśli ATR każe
+  odsunąć SL na ropie z 2 USD na 4 USD, wolumen spada z 0,05 do 0,025 lota,
+  a ryzyko dalej wynosi 100 USD
+
 ### Take Profit (TP)
 
 Automatyczne zlecenie zamknięcia pozycji, gdy zysk osiągnie ustalony poziom.
