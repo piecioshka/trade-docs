@@ -1254,6 +1254,65 @@ wyników i kalendarz makro **przed** otwarciem pozycji, nie po.
 
 ---
 
+## Podatki od CFD i akcji (Polska)
+
+Zysk z CFD, akcji i ETF-ów podlega **podatkowi od zysków kapitałowych 19%**
+(tzw. podatek Belki). Kilka rzeczy, które trader musi wiedzieć:
+
+### Kiedy powstaje podatek
+
+- Podatek płacisz od **zrealizowanego** wyniku - czyli po zamknięciu pozycji.
+  Otwarta pozycja z niezrealizowanym zyskiem nie jest opodatkowana
+- Liczy się **łączny wynik roczny**: suma zysków i strat ze wszystkich
+  transakcji zamkniętych od 1 stycznia do 31 grudnia. Zyskowne i stratne
+  transakcje kompensują się
+- Swapy i korekty (rolowania, dywidendowe) są częścią wyniku z instrumentu -
+  trafiają do rozliczenia razem z transakcją, nie osobno
+
+### Jak rozliczyć
+
+| Krok | Co                                                                                                                         | Termin          |
+| ---- | -------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| 1    | XTB (jak każdy polski dom maklerski) wysyła **PIT-8C** z sumą przychodów, kosztów i wynikiem                               | do końca lutego |
+| 2    | Przepisujesz dane z PIT-8C do **PIT-38** (np. w e-Urzędzie Skarbowym, gdzie formularz jest zwykle już wstępnie wypełniony) | do 30 kwietnia  |
+| 3    | Płacisz 19% od dochodu (albo wykazujesz stratę)                                                                            | do 30 kwietnia  |
+
+Broker **nie pobiera** podatku od CFD i akcji automatycznie - rozliczenie jest
+po Twojej stronie. Wyjątek: dywidendy z polskich spółek (19% potrącane u
+źródła, nic nie rozliczasz).
+
+### Strata podatkowa
+
+- Stratę z danego roku odliczasz od zysków w **kolejnych 5 latach**, maksymalnie
+  50% straty w jednym roku
+- Strata z CFD kompensuje zyski z akcji, ETF-ów i futures (to samo źródło:
+  kapitały pieniężne)
+- Strata z **kryptowalut** to osobna kategoria - nie kompensuje się z CFD
+  ani akcjami
+
+### Waluty obce
+
+- Wynik w USD/EUR przelicza się na PLN po **średnim kursie NBP z dnia
+  poprzedzającego** zamknięcie transakcji. XTB robi to za Ciebie w PIT-8C
+- U brokerów zagranicznych bez PIT-8C (np. Interactive Brokers) przeliczasz
+  każdą transakcję samodzielnie - przy setkach transakcji rocznie to realny
+  koszt czasu
+
+### Dywidendy z akcji zagranicznych
+
+- USA: podpisany **W-8BEN** (XTB prosi o niego przy rejestracji) obniża
+  podatek u źródła z 30% do 15%; brakujące 4% dopłacasz w PIT-38
+- **Korekta dywidendowa na CFD** to nie dywidenda - jest częścią wyniku
+  z instrumentu pochodnego i nie podlega podatkowi u źródła
+
+### Uwaga na IKE/IKZE
+
+Na rachunkach IKE i IKZE (zwolnienie z podatku Belki) można kupować akcje
+i ETF-y, ale **nie CFD**. Jeśli inwestujesz długoterminowo, to kolejny argument
+za prawdziwymi akcjami zamiast kontraktów.
+
+---
+
 ## Źródła i przydatne linki
 
 ### Oficjalne materiały XTB
@@ -1279,6 +1338,12 @@ wyników i kalendarz makro **przed** otwarciem pozycji, nie po.
 
 - [ESMA — ograniczenia dźwigni dla klientów detalicznych](https://www.esma.europa.eu/policy-rules/mifid-ii-and-mifir/investor-protection/cfd)
 - [KNF — ostrzeżenia dot. CFD](https://www.knf.gov.pl)
+
+### Podatki
+
+- [PIT-38 — formularz i objaśnienia (gov.pl)](https://www.gov.pl/web/finanse/pit-38)
+- [e-Urząd Skarbowy (Twój e-PIT)](https://www.podatki.gov.pl/e-urzad-skarbowy/)
+- [Tabela A średnich kursów NBP](https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/)
 
 ---
 
