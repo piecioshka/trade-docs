@@ -4,7 +4,7 @@
 
 > Zbiór notatek edukacyjnych dotyczących tradingu, instrumentów finansowych
 > (CFD, ETF, akcje, surowce) oraz praktycznych aspektów inwestowania
-> na platformie XTB.
+> na platformie [XTB](https://www.xtb.com/pl).
 
 📄 Wersja PDF: [piecioshka.github.io/trade-docs/README.pdf](https://piecioshka.github.io/trade-docs/README.pdf)
 
@@ -211,7 +211,7 @@ Korzyści i ryzyka:
 
 - Dźwignia **zwielokrotnia zyski**, ale tak samo **zwielokrotnia straty**.
 - Przy dźwigni 1:10 ruch ceny o 1% w Twoją stronę daje 10% zysku, ale ruch o 1% przeciw Tobie to 10% straty.
-- W UE maksymalna dźwignia dla klientów detalicznych to 1:30 (regulacje ESMA).
+- W UE maksymalna dźwignia dla klientów detalicznych to 1:30 (regulacje [ESMA](https://www.esma.europa.eu/)).
 
 Limity dźwigni per klasa instrumentu, depozyt zabezpieczający i Margin Stop: [Dźwignia finansowa (leverage)](#dźwignia-finansowa-leverage) i [Depozyt zabezpieczający (margin)](#depozyt-zabezpieczający-margin) w części II.
 
@@ -235,12 +235,12 @@ Limity dźwigni per klasa instrumentu, depozyt zabezpieczający i Margin Stop: [
 
 ### Co to jest iShares przy ETFach?
 
-**iShares** to marka ETF-ów należąca do **BlackRock** — największego na świecie zarządzającego aktywami.
+**[iShares](https://www.ishares.com/)** to marka ETF-ów należąca do **[BlackRock](https://www.blackrock.com/)** — największego na świecie zarządzającego aktywami.
 
 - iShares to nie osobny typ ETF, lecz **nazwa handlowa** serii funduszy ETF.
 - BlackRock oferuje pod marką iShares ponad 1 300 ETF-ów na całym świecie.
 - Przykłady: iShares Core S&P 500 (IVV), iShares MSCI World (IWDA), iShares Core MSCI Emerging Markets (IEMG).
-- Inne popularne marki ETF to: Vanguard, SPDR (State Street), Xtrackers (DWS), Amundi.
+- Inne popularne marki ETF to: [Vanguard](https://www.vanguard.com/), [SPDR](https://www.ssga.com/) (State Street), [Xtrackers](https://etf.dws.com/) (DWS), [Amundi](https://www.amundietf.com/).
 
 ## Technika
 
@@ -301,22 +301,22 @@ To dwa stany opisujące relację między ceną spot a cenami kontraktów futures
 
 Wybór brokera zależy od tego, czym chcesz handlować i jakie masz potrzeby. Popularne kategorie:
 
-- **Brokerzy CFD** — oferują kontrakty na różnicę kursową (Forex, indeksy, surowce, akcje). Przykłady: XTB, Plus500, eToro.
-- **Brokerzy giełdowi** — umożliwiają kupno prawdziwych akcji i ETF-ów. Przykłady: XTB, DEGIRO, Interactive Brokers, mBank (eMakler), Bossa.
-- **Brokerzy kryptowalut** — specjalizują się w handlu kryptowalutami. Przykłady: Binance, Kraken, Coinbase.
+- **Brokerzy CFD** — oferują kontrakty na różnicę kursową (Forex, indeksy, surowce, akcje). Przykłady: [XTB](https://www.xtb.com/pl), [Plus500](https://www.plus500.com/), [eToro](https://www.etoro.com/).
+- **Brokerzy giełdowi** — umożliwiają kupno prawdziwych akcji i ETF-ów. Przykłady: XTB, [DEGIRO](https://www.degiro.pl/), [Interactive Brokers](https://www.interactivebrokers.com/), [mBank](https://www.mbank.pl/) (eMakler), [Bossa](https://bossa.pl/).
+- **Brokerzy kryptowalut** — specjalizują się w handlu kryptowalutami. Przykłady: [Binance](https://www.binance.com/), [Kraken](https://www.kraken.com/), [Coinbase](https://www.coinbase.com/).
 
 ### Jaki broker jest najlepszy?
 
 Nie ma jednego "najlepszego" brokera — zależy od indywidualnych potrzeb. Na co zwrócić uwagę:
 
-| Kryterium | Co sprawdzić                                                           |
-| --------- | ---------------------------------------------------------------------- |
-| Regulacja | Czy broker jest nadzorowany (KNF, CySEC, FCA, BaFin)?                  |
-| Koszty    | Spread, prowizje, opłaty za przewalutowanie, opłata za brak aktywności |
-| Oferta    | Jakie instrumenty są dostępne (akcje, ETF, CFD, Forex)?                |
-| Platforma | Czy platforma jest intuicyjna? Czy ma aplikację mobilną?               |
-| Wypłaty   | Jak szybko i tanio można wypłacić środki?                              |
-| Edukacja  | Czy broker oferuje materiały edukacyjne?                               |
+| Kryterium | Co sprawdzić                                                                                                                                                      |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regulacja | Czy broker jest nadzorowany ([KNF](https://www.knf.gov.pl/), [CySEC](https://www.cysec.gov.cy/), [FCA](https://www.fca.org.uk/), [BaFin](https://www.bafin.de/))? |
+| Koszty    | Spread, prowizje, opłaty za przewalutowanie, opłata za brak aktywności                                                                                            |
+| Oferta    | Jakie instrumenty są dostępne (akcje, ETF, CFD, Forex)?                                                                                                           |
+| Platforma | Czy platforma jest intuicyjna? Czy ma aplikację mobilną?                                                                                                          |
+| Wypłaty   | Jak szybko i tanio można wypłacić środki?                                                                                                                         |
+| Edukacja  | Czy broker oferuje materiały edukacyjne?                                                                                                                          |
 
 Popularne wybory wśród polskich inwestorów:
 
@@ -383,7 +383,7 @@ Makler papierów wartościowych to osoba posiadająca licencję uprawniającą d
 ### Jak można nim zostać?
 
 1. **Wykształcenie** — nie jest wymagany konkretny kierunek studiów, ale ekonomia, finanse lub matematyka ułatwiają drogę.
-2. **Egzamin** — należy zdać egzamin na maklera papierów wartościowych organizowany przez Komisję Nadzoru Finansowego (KNF).
+2. **Egzamin** — należy zdać egzamin na maklera papierów wartościowych organizowany przez [Komisję Nadzoru Finansowego (KNF)](https://www.knf.gov.pl/).
    - Egzamin składa się z pytań testowych i zadań obliczeniowych.
    - Zakres: prawo rynku kapitałowego, analiza finansowa, instrumenty finansowe, rachunkowość, matematyka finansowa.
    - Zdawalność wynosi ok. 20–30% — egzamin jest trudny.
@@ -418,7 +418,7 @@ Nie. Licencja jest wymagana do pośredniczenia w obrocie w imieniu klientów, a 
 
 Pre-market i after-market to sesje handlowe odbywające się **poza regularnymi godzinami giełdy**.
 
-- **Pre-market** — handel przed oficjalnym otwarciem giełdy. Na NYSE/NASDAQ: 10:00-15:30 czasu polskiego (4:00-9:30 ET)
+- **Pre-market** — handel przed oficjalnym otwarciem giełdy. Na [NYSE](https://www.nyse.com/)/[NASDAQ](https://www.nasdaq.com/): 10:00-15:30 czasu polskiego (4:00-9:30 ET)
 - **Regularna sesja** — 15:30-22:00 czasu polskiego (9:30-16:00 ET)
 - **After-market (after-hours)** — handel po zamknięciu giełdy. Na NYSE/NASDAQ: 22:00-02:00 czasu polskiego (16:00-20:00 ET)
 
@@ -468,7 +468,7 @@ Praktyczne wnioski:
 
 - **Najlepszy czas na handel** większością instrumentów to 14:00-17:00 - działają oba największe centra, publikowane są dane z USA (zwykle 14:30), a spready są najwęższe
 - **Najgorszy czas** to 22:00-01:00 (między zamknięciem NY a otwarciem Tokio) - spready na CFD potrafią się kilkukrotnie rozszerzyć, a swap nalicza się właśnie wtedy
-- **Instrument dopasuj do sesji** - DAX ma sens w godzinach europejskich, a nie w nocy; ropa Brent najbardziej "żyje" po 14:30 (i po środowym raporcie EIA o zapasach w USA, 16:30)
+- **Instrument dopasuj do sesji** - DAX ma sens w godzinach europejskich, a nie w nocy; ropa Brent najbardziej "żyje" po 14:30 (i po środowym raporcie [EIA](https://www.eia.gov/) o zapasach w USA, 16:30)
 - **Korelacje między rynkami** - dolar, ropa i indeksy są powiązane: silny USD zwykle ciąży surowcom wycenianym w dolarze (złoto, ropa), a Twój wynik na instrumencie w USD dodatkowo zależy od kursu USD/PLN. Dwie pozycje na skorelowanych instrumentach (np. LONG złoto i LONG srebro albo LONG ropa i SHORT USD/CAD - kanadyjski dolar rośnie razem z ropą) to często jedno ryzyko w dwóch ticketach, nie dywersyfikacja
 
 ## Płynność
@@ -537,7 +537,7 @@ Nie zawsze, ale zazwyczaj tak. Zależy od kontekstu:
 
 ### Akcje — to co już znasz
 
-Kupujesz akcje np. CD Projektu na GPW. Stajesz się współwłaścicielem spółki.
+Kupujesz akcje np. CD Projektu na [GPW](https://www.gpw.pl/). Stajesz się współwłaścicielem spółki.
 Masz prawo głosu na walnym zgromadzeniu, dostajesz dywidendy. Żeby kupić
 10 akcji po 200 zł, potrzebujesz 2000 zł. Proste.
 
@@ -921,7 +921,7 @@ kontraktu futures na jaki broker przechodzi. Krok po kroku:
    → „lipiec 2026")
 
 2. **Zidentyfikuj kontrakty na giełdzie bazowej** — ropa Brent jest notowana
-   na giełdzie ICE (Intercontinental Exchange). Kontrakty futures mają
+   na giełdzie [ICE](https://www.ice.com/) (Intercontinental Exchange). Kontrakty futures mają
    oznaczenia składające się z symbolu instrumentu + kodu miesiąca + roku:
 
    | Kod miesiąca | Miesiąc     |
@@ -944,9 +944,9 @@ kontraktu futures na jaki broker przechodzi. Krok po kroku:
    (Brent czerwiec 2026) i **BRN N26** (Brent lipiec 2026)
 
 3. **Sprawdź ceny obu kontraktów** — możesz to zrobić na stronach takich jak:
-   - ICE (theice.com) — oficjalne notowania kontraktów Brent
-   - Investing.com — sekcja „Futures" → „Brent Oil"
-   - TradingView — wpisz symbole kontraktów (np. `BRN1!` dla najbliższego,
+   - [ICE](https://www.ice.com/products/219/Brent-Crude-Futures) — oficjalne notowania kontraktów Brent
+   - [Investing.com](https://www.investing.com/commodities/brent-oil) — sekcja „Futures" → „Brent Oil"
+   - [TradingView](https://www.tradingview.com/) — wpisz symbole kontraktów (np. `BRN1!` dla najbliższego,
      `BRN2!` dla kolejnego)
 
 4. **Oblicz różnicę** — jeśli BRN M26 = 72,50 USD, a BRN N26 = 73,10 USD,
@@ -973,7 +973,7 @@ Na XTB dostępne są dwa rodzaje ropy:
   amerykańskiego
 
 Cena OIL bazuje na notowaniach kontraktu futures na ropę Brent z giełdy
-ICE Futures Europe w Londynie. Obie ropy poruszają się zwykle razem, ale
+[ICE Futures Europe](https://www.ice.com/futures-europe) w Londynie. Obie ropy poruszają się zwykle razem, ale
 Brent bywa o kilka dolarów droższa (koszt transportu i różnice w jakości).
 
 ### Krok po kroku — jak otworzyć pozycję
@@ -1015,7 +1015,7 @@ a nie mechanizm brokera.
 - **Godziny handlu:** prawie 24h w dni robocze (z przerwą na rozliczenie)
 - **Waluta rozliczenia:** USD (kurs walutowy ma znaczenie!)
 - **Zmienność:** duża — ceny ropy mogą się gwałtownie zmieniać pod wpływem
-  geopolityki, decyzji OPEC, zapasów surowca
+  geopolityki, decyzji [OPEC](https://www.opec.org/), zapasów surowca
 
 ### Na co uważać?
 
