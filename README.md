@@ -862,6 +862,8 @@ automatycznie „przerzuca" Twoją pozycję na nową serię kontraktu.
 **Rolowanie jest bezkosztowe** — ewentualna różnica cenowa między starą a nową
 serią jest kompensowana korektą na Twoim rachunku.
 
+![Rolowanie CFD: skok ceny i korekta na rachunku](assets/rollover.svg)
+
 **Dlaczego korekta „chwilowo" wpływa na depozyt?**
 
 Korekta przy rolowaniu jest naliczana jako osobna pozycja na rachunku.
