@@ -376,9 +376,9 @@ Argumenty przeciw:
 - Jeśli nie planujesz kariery w branży finansowej, licencja nie jest konieczna do inwestowania na własny rachunek.
 - Wiedza z egzaminu jest dość teoretyczna — praktyczne umiejętności inwestycyjne zdobywa się na rynku.
 
-### Czy sami jesteście? A jeśli tak/nie, to dlaczego?
+### Czy inwestor indywidualny potrzebuje licencji maklerskiej?
 
-To pytanie dotyczy osobistych doświadczeń — odpowiedź zależy od konkretnej osoby w społeczności. Warto jednak wiedzieć, że:
+Nie. Licencja jest wymagana do pośredniczenia w obrocie w imieniu klientów, a nie do handlu na własny rachunek:
 
 - **Większość inwestorów indywidualnych nie jest maklerami** — do inwestowania na własny rachunek licencja nie jest potrzebna.
 - Wielu maklerów pracuje na etacie w domach maklerskich i nie inwestuje aktywnie na własny rachunek (ze względu na regulacje compliance).
