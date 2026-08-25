@@ -239,12 +239,15 @@ To dwa stany opisujące relację między ceną spot a cenami kontraktów futures
 - Sytuacja "normalna" na wielu rynkach (np. surowce), bo przechowywanie towaru kosztuje.
 - Rolowanie w contango generuje **stratę** — sprzedajesz tańszy kontrakt, kupujesz droższy.
 - Przykład: ropa spot 70 USD, kontrakt na za miesiąc 72 USD.
+- Strata nie pojawia się w dniu rolowania, tylko rozkłada się w czasie: nowy kontrakt kupiony po 72 USD będzie "zjeżdżał" do ceny spot w miarę zbliżania się wygaśnięcia (ujemny roll yield). Nawet gdy spot stoi w miejscu, pozycja LONG traci.
 
 **Backwardation** — cena futures jest **niższa** niż cena spot.
 
 - Występuje, gdy rynek oczekuje spadku cen lub jest wysoki popyt na natychmiastową dostawę.
 - Rolowanie w backwardation generuje **zysk** — sprzedajesz droższy kontrakt, kupujesz tańszy.
 - Przykład: ropa spot 70 USD, kontrakt na za miesiąc 68 USD.
+
+**A co z CFD?** Powyższe dotyczy samodzielnego rolowania futures. Na CFD broker roluje automatycznie i wyrównuje różnicę cen korektą na rachunku, więc sam moment rolowania jest dla Ciebie neutralny (szczegóły w części II, sekcja [Rolowanie (rollover)](#rolowanie-rollover)). Koszt contango nie znika jednak - realizuje się przez stopniowy zjazd ceny nowego kontraktu do spotu, dokładnie tak jak na futures.
 
 ## Broker
 
