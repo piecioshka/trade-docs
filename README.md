@@ -1228,6 +1228,30 @@ Przed otwarciem pozycji powinieneś wiedzieć:
 - **Ile ryzykujesz?** (max 1-2% kapitału na jedną transakcję — to popularna
   zasada zarządzania ryzykiem)
 
+### 7. Trzymanie lewarowanej pozycji przez weekend lub publikację wyników
+
+Stop Loss chroni Cię tylko wtedy, gdy rynek "przechodzi" przez Twój poziom.
+Gdy rynek jest zamknięty, a cena otwiera się z luką (gap), SL wykona się po
+pierwszej dostępnej cenie za luką - nie po tej, którą ustawiłeś.
+
+Typowe sytuacje:
+
+- **Wyniki kwartalne** - spółki publikują je po sesji lub przed otwarciem.
+  Akcja potrafi otworzyć się 10-20% niżej. Przy CFD z dźwignią 1:5 luka 20%
+  to strata 100% depozytu pod pozycją, a SL ustawiony 5% niżej nic tu nie zmieni
+- **Weekend** - ropa, indeksy i forex reagują w poniedziałek na wszystko, co
+  wydarzyło się od piątku (OPEC, geopolityka, wybory). Luka po weekendzie to
+  najczęstsza przyczyna gwałtownych Margin Stopów
+- **Dane makro** (decyzje Fed, NFP, CPI) - rynek jest otwarty, ale przez kilka
+  sekund płynność znika i spread rozszerza się wielokrotnie; SL wykonuje się
+  z dużym poślizgiem
+
+**Zasada:** przed wynikami spółki i przed weekendem zamknij lewarowaną pozycję
+albo zmniejsz ją tak, żeby luka 20% nie zagrażała rachunkowi. Jeśli chcesz
+mieć ekspozycję przez publikację, kup prawdziwe akcje (bez dźwigni) - albo
+zaakceptuj, że SL jest w tym momencie tylko życzeniem. Sprawdzaj kalendarz
+wyników i kalendarz makro **przed** otwarciem pozycji, nie po.
+
 ---
 
 ## Źródła i przydatne linki
