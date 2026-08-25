@@ -8,6 +8,8 @@
 
 📄 Wersja PDF: [piecioshka.github.io/trade-docs/README.pdf](https://piecioshka.github.io/trade-docs/README.pdf)
 
+> **Aktualność danych:** liczby zależne od oferty brokera (spready, swapy, liczba dostępnych instrumentów, limity prowizji, odsetek stratnych rachunków) zmieniają się z czasem. Ostatnia weryfikacja tego dokumentu: sierpień 2026. Przed transakcją sprawdzaj aktualną specyfikację instrumentu na platformie.
+
 ---
 
 ## Spis treści
