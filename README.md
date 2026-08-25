@@ -150,11 +150,12 @@ Zastosowanie:
 
 ### Co to jest pips / lot?
 
-**Pips** (Percentage in Point) — najmniejsza jednostka zmiany ceny instrumentu.
+**Pips** (pip, od "price interest point" lub "percentage in point" - obie wersje są w obiegu) — standardowa jednostka zmiany kursu na rynku Forex.
 
-- Na rynku Forex dla większości par walutowych 1 pips = 0.0001 (czwarte miejsce po przecinku).
+- Dla większości par walutowych 1 pips = 0.0001 (czwarte miejsce po przecinku).
 - Dla par z jenem (JPY) 1 pips = 0.01 (drugie miejsce po przecinku).
 - Przykład: jeśli EUR/USD zmieni się z 1.1000 na 1.1001 — to zmiana o 1 pips.
+- **Pips to nie punkt (point/tick).** Brokerzy kwotują dziś z dodatkowym miejscem po przecinku (1.10005), a ta ostatnia cyfra to **punkt** = 0,1 pipsa. Spread "3 punkty" i "3 pipsy" różnią się dziesięciokrotnie - sprawdzaj, w czym platforma podaje spread. Poza Forexem (indeksy, surowce, akcje) mówi się o punktach lub tickach, nie pipsach.
 
 **Lot** — standardowa jednostka wielkości transakcji.
 
@@ -162,6 +163,16 @@ Zastosowanie:
 - **1 mini lot** = 10 000 jednostek.
 - **1 mikro lot** = 1 000 jednostek.
 - Przykład: kupno 1 lota EUR/USD oznacza kupno 100 000 EUR.
+
+**Ile jest wart 1 pips?** To liczba, którą trzeba znać przed ustawieniem Stop Lossa:
+
+| Wolumen           | Wartość 1 pipsa (EUR/USD) | Ruch o 10 pipsów |
+| ----------------- | ------------------------- | ---------------- |
+| 1 lot (100 000)   | 10 USD                    | 100 USD          |
+| 0,1 lota (10 000) | 1 USD                     | 10 USD           |
+| 0,01 lota (1 000) | 0,10 USD                  | 1 USD            |
+
+Wzór: wartość pipsa = wielkość pozycji × 0,0001 (dla par z USD jako walutą kwotowaną). Dla innych par wynik trzeba jeszcze przeliczyć na walutę konta.
 
 ### Co to jest lewar / dźwignia?
 
