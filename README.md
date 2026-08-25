@@ -662,6 +662,23 @@ sprawdzaj specyfikację instrumentu u swojego brokera.
 noc płacisz. Dlatego CFD to instrument **krótkoterminowy**, nie do trzymania
 miesiącami.
 
+### Przewalutowanie
+
+Jeśli Twój rachunek jest w PLN, a instrument rozlicza się w USD (ropa, AAPL.US)
+albo EUR, wynik każdej zamkniętej transakcji jest przeliczany na PLN. XTB
+dolicza do kursu wymiany **marżę 0,5%** (tabela opłat i prowizji, stan na
+maj 2026) - i to samo dotyczy zakupu prawdziwych akcji lub ETF-ów w obcej
+walucie.
+
+Dlaczego to ważne: 0,5% od wyniku brzmi niewinnie, ale przy częstym handlu
+sumuje się do kosztu porównywalnego ze spreadem. Przykład: zysk 500 USD na
+ropie to ok. 2,50 USD marży przewalutowania - przy 20 takich transakcjach
+w miesiącu oddajesz 50 USD samego kosztu wymiany.
+
+Jak ograniczyć: rachunek w walucie instrumentu (XTB pozwala prowadzić
+subkonta w USD/EUR), handel instrumentami w PLN (KGHM.PL) albo po prostu
+rzadsze, większe transakcje zamiast wielu małych.
+
 ### Pozycja LONG i SHORT
 
 - **LONG (kupno)** — stawiasz na wzrost ceny. Kupujesz tanio, sprzedajesz
@@ -1079,6 +1096,7 @@ danych o cenach miedzi.
 | **Depozyt**                         | 10%                  | 20%                 | 20%                   |
 | **Waluta**                          | USD                  | USD                 | PLN                   |
 | **Ryzyko walutowe**                 | Tak (USD/PLN)        | Tak (USD/PLN)       | Nie                   |
+| **Przewalutowanie (rachunek PLN)**  | 0,5% od wyniku       | 0,5% od wyniku      | Brak                  |
 | **Spread**                          | Niski (płynny rynek) | Niski (duże spółki) | Wyższy (mniej płynny) |
 | **Swap**                            | Tak                  | Tak                 | Tak                   |
 | **Rolowanie**                       | Tak (co miesiąc)     | Nie                 | Nie                   |
