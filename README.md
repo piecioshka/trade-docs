@@ -293,6 +293,8 @@ To dwa stany opisujące relację między ceną spot a cenami kontraktów futures
 
 **A co z CFD?** Powyższe dotyczy samodzielnego rolowania futures. Na CFD broker roluje automatycznie i wyrównuje różnicę cen korektą na rachunku, więc sam moment rolowania jest dla Ciebie neutralny (szczegóły w części II, sekcja [Rolowanie (rollover)](#rolowanie-rollover)). Koszt contango nie znika jednak - realizuje się przez stopniowy zjazd ceny nowego kontraktu do spotu, dokładnie tak jak na futures.
 
+![Krzywa terminowa: contango vs backwardation](assets/contango.svg)
+
 ## Broker
 
 ### Jaki broker?

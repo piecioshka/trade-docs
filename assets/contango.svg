@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" font-family="Arial, sans-serif" font-size="13">
+  <!-- Tło -->
+  <rect width="560" height="340" fill="#fafafa" rx="8"/>
+
+  <!-- Tytuł -->
+  <text x="280" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Krzywa terminowa: contango vs backwardation</text>
+  <text x="280" y="46" text-anchor="middle" font-size="11" fill="#888">Cena spot 70 USD i trzy kolejne serie kontraktów futures na ropę</text>
+
+  <!-- === LEWY PANEL: CONTANGO === -->
+  <text x="155" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#dc2626">CONTANGO</text>
+  <text x="155" y="86" text-anchor="middle" font-size="10" fill="#888">futures droższe niż spot</text>
+
+  <!-- Osie -->
+  <line x1="60" y1="100" x2="60" y2="270" stroke="#bbb" stroke-width="1.5"/>
+  <line x1="60" y1="270" x2="260" y2="270" stroke="#bbb" stroke-width="1.5"/>
+
+  <!-- Linia spot (pozioma, szara) -->
+  <line x1="60" y1="200" x2="260" y2="200" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="56" y="204" text-anchor="end" font-size="11" fill="#555">70</text>
+
+  <!-- Krzywa contango -->
+  <polyline points="80,200 140,160 200,130 250,110" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+  <circle cx="80" cy="200" r="4" fill="#333"/>
+  <circle cx="140" cy="160" r="4" fill="#dc2626"/>
+  <circle cx="200" cy="130" r="4" fill="#dc2626"/>
+  <circle cx="250" cy="110" r="4" fill="#dc2626"/>
+
+  <!-- Etykiety cen -->
+  <text x="134" y="152" text-anchor="end" font-size="11" fill="#dc2626" font-weight="bold">72</text>
+  <text x="194" y="122" text-anchor="end" font-size="11" fill="#dc2626">73,5</text>
+  <text x="244" y="102" text-anchor="end" font-size="11" fill="#dc2626">74,5</text>
+
+  <!-- Etykiety osi X -->
+  <text x="80" y="286" text-anchor="middle" font-size="10" fill="#555">spot</text>
+  <text x="140" y="286" text-anchor="middle" font-size="10" fill="#555">+1 mies.</text>
+  <text x="200" y="286" text-anchor="middle" font-size="10" fill="#555">+2 mies.</text>
+  <text x="250" y="286" text-anchor="middle" font-size="10" fill="#555">+3 mies.</text>
+
+  <!-- Strzałka zjazdu do spotu -->
+  <path d="M136,168 Q110,200 88,204" fill="none" stroke="#b45309" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <path d="M94,198 L86,205 L96,208" fill="none" stroke="#b45309" stroke-width="1.5"/>
+  <text x="70" y="240" font-size="10" fill="#b45309">kontrakt zjeżdża do spotu:</text>
+  <text x="70" y="252" font-size="10" fill="#b45309" font-weight="bold">LONG traci (ujemny roll yield)</text>
+
+  <!-- === PRAWY PANEL: BACKWARDATION === -->
+  <text x="415" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#16a34a">BACKWARDATION</text>
+  <text x="415" y="86" text-anchor="middle" font-size="10" fill="#888">futures tańsze niż spot</text>
+
+  <!-- Osie -->
+  <line x1="320" y1="100" x2="320" y2="270" stroke="#bbb" stroke-width="1.5"/>
+  <line x1="320" y1="270" x2="520" y2="270" stroke="#bbb" stroke-width="1.5"/>
+
+  <!-- Linia spot -->
+  <line x1="320" y1="140" x2="520" y2="140" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="316" y="144" text-anchor="end" font-size="11" fill="#555">70</text>
+
+  <!-- Krzywa backwardation -->
+  <polyline points="340,140 400,180 460,204 510,220" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+  <circle cx="340" cy="140" r="4" fill="#333"/>
+  <circle cx="400" cy="180" r="4" fill="#16a34a"/>
+  <circle cx="460" cy="204" r="4" fill="#16a34a"/>
+  <circle cx="510" cy="220" r="4" fill="#16a34a"/>
+
+  <!-- Etykiety cen -->
+  <text x="408" y="174" font-size="11" fill="#16a34a" font-weight="bold">68</text>
+  <text x="468" y="198" font-size="11" fill="#16a34a">66,8</text>
+  <text x="518" y="214" font-size="11" fill="#16a34a">66</text>
+
+  <!-- Etykiety osi X -->
+  <text x="340" y="286" text-anchor="middle" font-size="10" fill="#555">spot</text>
+  <text x="400" y="286" text-anchor="middle" font-size="10" fill="#555">+1 mies.</text>
+  <text x="460" y="286" text-anchor="middle" font-size="10" fill="#555">+2 mies.</text>
+  <text x="510" y="286" text-anchor="middle" font-size="10" fill="#555">+3 mies.</text>
+
+  <!-- Strzałka wzrostu do spotu -->
+  <path d="M396,172 Q370,140 348,136" fill="none" stroke="#15803d" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <path d="M354,131 L346,136 L355,142" fill="none" stroke="#15803d" stroke-width="1.5"/>
+  <text x="380" y="112" font-size="10" fill="#15803d">kontrakt rośnie do spotu:</text>
+  <text x="380" y="124" font-size="10" fill="#15803d" font-weight="bold">LONG zyskuje (dodatni roll yield)</text>
+
+  <!-- Podpis -->
+  <text x="280" y="316" text-anchor="middle" font-size="11" fill="#666">Nawet gdy spot stoi w miejscu, cena futures dąży do spotu w miarę zbliżania się wygaśnięcia.</text>
+  <text x="280" y="330" text-anchor="middle" font-size="11" fill="#666">Na CFD broker wyrównuje skok przy rolowaniu korektą, ale ten "zjazd" i tak zachodzi między rolowaniami.</text>
+</svg>
