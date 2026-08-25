@@ -483,16 +483,16 @@ otwarcia a zamknięcia pozycji.
 
 ### Kluczowe różnice na pierwszy rzut oka
 
-| Cecha                 | Akcje (rzeczywiste)                               | CFD                                                                                                |
-| --------------------- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Własność**          | Stajesz się właścicielem                          | Nie — to tylko kontrakt                                                                            |
-| **Prawo głosu**       | Tak                                               | Nie                                                                                                |
-| **Dywidendy**         | Otrzymujesz                                       | Korekta dywidendowa (dodatnia przy LONG, ujemna przy SHORT)                                        |
-| **Kierunek**          | Tylko kupno (LONG)                                | Kupno (LONG) **i** sprzedaż (SHORT)                                                                |
-| **Dźwignia**          | Brak — płacisz 100%                               | Tak — płacisz np. 10-50% wartości                                                                  |
-| **Koszty utrzymania** | Brak (trzymasz ile chcesz)                        | Swap — opłata za każdą noc                                                                         |
-| **Prowizja na XTB**   | 0% do 100 000 EUR/mies., potem 0,2% (min. 10 EUR) | Spread + ewentualnie swap                                                                          |
-| **Ryzyko**            | Stracisz max tyle, ile zainwestowałeś             | Dźwignia potęguje straty — możesz stracić więcej niż depozyt (XTB ma ochronę przed ujemnym saldem) |
+| Cecha                 | Akcje (rzeczywiste)                               | CFD                                                                                                                                                               |
+| --------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Własność**          | Stajesz się właścicielem                          | Nie — to tylko kontrakt                                                                                                                                           |
+| **Prawo głosu**       | Tak                                               | Nie                                                                                                                                                               |
+| **Dywidendy**         | Otrzymujesz                                       | Korekta dywidendowa (dodatnia przy LONG, ujemna przy SHORT)                                                                                                       |
+| **Kierunek**          | Tylko kupno (LONG)                                | Kupno (LONG) **i** sprzedaż (SHORT)                                                                                                                               |
+| **Dźwignia**          | Brak — płacisz 100%                               | Tak — płacisz np. 10-50% wartości                                                                                                                                 |
+| **Koszty utrzymania** | Brak (trzymasz ile chcesz)                        | Swap — opłata za każdą noc                                                                                                                                        |
+| **Prowizja na XTB**   | 0% do 100 000 EUR/mies., potem 0,2% (min. 10 EUR) | Spread + ewentualnie swap                                                                                                                                         |
+| **Ryzyko**            | Stracisz max tyle, ile zainwestowałeś             | Dźwignia potęguje straty — możesz stracić więcej niż depozyt pod pozycją, ale nie więcej niż saldo konta (ochrona przed ujemnym saldem dla klientów detalicznych) |
 
 ### Co to znaczy w praktyce?
 
