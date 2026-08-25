@@ -589,6 +589,8 @@ Przykład: ropa WTI na platformie pokazuje:
 - ASK: 70,03 USD (cena, po której możesz kupić)
 - **Spread: 0,03 USD**
 
+![Spread: po której cenie kupujesz, a po której sprzedajesz](assets/spread.svg)
+
 Spread to ukryty koszt transakcji — od razu po otwarciu pozycji jesteś „na
 minusie" o wartość spreadu. Im niższy spread, tym lepiej dla Ciebie.
 
