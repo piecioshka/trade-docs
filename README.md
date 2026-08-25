@@ -424,6 +424,25 @@ W tych sesjach handel odbywa się na platformach ECN (Electronic Communication N
 - **Ryzyko fałszywych ruchów** — ruchy cenowe w pre/after-market nie zawsze odzwierciedlają kierunek, w którym pójdzie cena na regularnej sesji
 - **Nie wszyscy brokerzy oferują dostęp** — na XTB dostęp do pre/after-market jest ograniczony do wybranych instrumentów
 
+## Sesje rynkowe
+
+Forex, surowce i indeksy handluje się niemal 24 h w dni robocze, ale płynność nie jest równa przez całą dobę. Rynek "wędruje" za słońcem przez cztery główne centra finansowe (godziny w czasie polskim, orientacyjnie - przesuwają się o godzinę przy zmianach czasu):
+
+| Sesja                  | Godziny (czas polski) | Co jest aktywne                                                      |
+| ---------------------- | --------------------- | -------------------------------------------------------------------- |
+| Sydney                 | 23:00-08:00           | AUD, NZD; niska płynność                                             |
+| Tokio                  | 01:00-10:00           | JPY, indeksy azjatyckie (Nikkei)                                     |
+| Londyn                 | 09:00-18:00           | EUR, GBP, złoto, ropa Brent, indeksy europejskie (DAX, FTSE)         |
+| Nowy Jork              | 14:00-23:00           | USD, akcje US, ropa WTI, indeksy US (S&P 500, NASDAQ); dane makro US |
+| **Nakładka Londyn-NY** | **14:00-17:00**       | Największa płynność i zmienność na świecie - najwęższe spready       |
+
+Praktyczne wnioski:
+
+- **Najlepszy czas na handel** większością instrumentów to 14:00-17:00 - działają oba największe centra, publikowane są dane z USA (zwykle 14:30), a spready są najwęższe
+- **Najgorszy czas** to 22:00-01:00 (między zamknięciem NY a otwarciem Tokio) - spready na CFD potrafią się kilkukrotnie rozszerzyć, a swap nalicza się właśnie wtedy
+- **Instrument dopasuj do sesji** - DAX ma sens w godzinach europejskich, a nie w nocy; ropa WTI najbardziej "żyje" po 14:30 (i po środowym raporcie EIA o zapasach, 16:30)
+- **Korelacje między rynkami** - dolar, ropa i indeksy są powiązane: silny USD zwykle ciąży surowcom wycenianym w dolarze (złoto, ropa), a Twój wynik na instrumencie w USD dodatkowo zależy od kursu USD/PLN. Dwie pozycje na skorelowanych instrumentach (np. LONG złoto i LONG srebro albo LONG ropa i SHORT USD/CAD - kanadyjski dolar rośnie razem z ropą) to często jedno ryzyko w dwóch ticketach, nie dywersyfikacja
+
 ## Płynność
 
 ### Co to jest płynność?
