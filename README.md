@@ -848,11 +848,20 @@ Załóżmy, że ropa kosztuje **70 USD za baryłkę** i uważasz, że cena wzro�
 
 ### Co się dzieje dalej?
 
-| Scenariusz       | Cena ropy       | Twój wynik         | Przy depozycie 700 USD |
-| ---------------- | --------------- | ------------------ | ---------------------- |
-| Cena rośnie      | 75 USD (+5 USD) | +500 USD (100 × 5) | +71% zysku             |
-| Cena spada       | 65 USD (-5 USD) | -500 USD (100 × 5) | -71% straty            |
-| Cena spada mocno | 63 USD (-7 USD) | -700 USD (100 × 7) | -100% — Margin Stop!   |
+| Scenariusz         | Cena ropy             | Twój wynik           | Przy depozycie 700 USD |
+| ------------------ | --------------------- | -------------------- | ---------------------- |
+| Cena rośnie do TP  | 75 USD (+5 USD)       | +500 USD (100 × 5)   | +71% zysku             |
+| Cena spada do SL   | 68 USD (-2 USD)       | -200 USD (100 × 2)   | -29% straty            |
+| Bez SL, cena spada | 66,50 USD (-3,50 USD) | -350 USD (100 × 3,5) | -50% - Margin Stop!    |
+
+**Skąd 66,50 USD, a nie 63 USD?** Częsty błąd w rozumieniu dźwigni: nie musisz
+stracić całego depozytu, żeby broker zamknął pozycję. Jeśli na koncie masz
+tylko te 700 USD, Margin Stop (Margin Level 50%) uruchamia się, gdy equity
+spadnie do 350 USD - czyli przy stracie 350 USD, co na 100 baryłkach daje
+3,50 USD spadku ceny. Z większym saldem próg odsuwa się dalej: przy 1 400 USD
+na koncie stop out wypada przy stracie 1 050 USD (cena 59,50 USD). Dlatego
+Stop Loss z kroku 5 jest ważny - to Ty decydujesz, gdzie kończy się strata,
+a nie mechanizm brokera.
 
 ### Specyfika ropy
 
@@ -1038,8 +1047,10 @@ danych o cenach miedzi.
 
 „Mam 1000 zł, otworzę pozycję za 5000 zł — w końcu mogę!"
 
-Tak, **możesz**, ale jeśli cena spadnie o 20%, stracisz **100% swojego
-kapitału**. Dźwignia to miecz obosieczny.
+Tak, **możesz**, ale spadek ceny o 20% to strata **100% Twojego kapitału** -
+a w praktyce broker zamknie pozycję jeszcze wcześniej: przy Margin Level 50%
+wystarczy spadek o 10%, żeby uruchomił się Margin Stop. Dźwignia to miecz
+obosieczny.
 
 **Zasada:** Na początek używaj małej dźwigni. Otwieraj pozycje za ułamek
 dostępnego depozytu.
