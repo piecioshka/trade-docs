@@ -120,6 +120,8 @@ Im mniejszy spread, tym niższy koszt transakcji dla tradera. To, czy spread jes
 
 Porównując brokerów, licz **całkowity koszt** (spread + prowizja), a nie samą szerokość spreadu.
 
+Więcej na przykładzie xStation: [Spread](#spread) w części II.
+
 ### Jaki jest spread na metalach?
 
 Spread na metalach szlachetnych zależy od brokera, pory dnia i płynności rynku. Orientacyjne wartości:
@@ -176,6 +178,8 @@ Zastosowanie:
 
 Wzór: wartość pipsa = wielkość pozycji × 0,0001 (dla par z USD jako walutą kwotowaną). Dla innych par wynik trzeba jeszcze przeliczyć na walutę konta.
 
+Co znaczy 1 lot na ropie, akcjach i indeksach: [Lot (wielkość pozycji)](#lot-wielkość-pozycji) w części II. Jak przeliczyć ryzyko na loty: [Wielkość pozycji (position sizing)](#wielkość-pozycji-position-sizing).
+
 ### Co to jest lewar / dźwignia?
 
 Lewar (leverage / dźwignia finansowa) pozwala kontrolować dużą pozycję przy użyciu niewielkiego kapitału własnego (tzw. depozytu zabezpieczającego / margin).
@@ -188,6 +192,8 @@ Korzyści i ryzyka:
 - Dźwignia **zwielokrotnia zyski**, ale tak samo **zwielokrotnia straty**.
 - Przy dźwigni 1:10 ruch ceny o 1% w Twoją stronę daje 10% zysku, ale ruch o 1% przeciw Tobie to 10% straty.
 - W UE maksymalna dźwignia dla klientów detalicznych to 1:30 (regulacje ESMA).
+
+Limity dźwigni per klasa instrumentu, depozyt zabezpieczający i Margin Stop: [Dźwignia finansowa (leverage)](#dźwignia-finansowa-leverage) i [Depozyt zabezpieczający (margin)](#depozyt-zabezpieczający-margin) w części II.
 
 ## ETF
 
@@ -246,7 +252,7 @@ Dlaczego to ważne:
 
 - Kontrakty futures mają **datę wygaśnięcia** — nie możesz ich trzymać w nieskończoność.
 - Przy rolowaniu może wystąpić różnica w cenie między starym a nowym kontraktem.
-- U brokerów CFD (np. XTB) rolowanie często odbywa się **automatycznie**, a różnica w cenie jest rozliczana jako korekta na koncie.
+- U brokerów CFD (np. XTB) rolowanie często odbywa się **automatycznie**, a różnica w cenie jest rozliczana jako korekta na koncie. Jak dokładnie liczona jest korekta i jak sprawdzić ją z wyprzedzeniem: [Rolowanie (rollover)](#rolowanie-rollover) w części II.
 
 ### Co to jest "contango" i "backwardation"?
 
