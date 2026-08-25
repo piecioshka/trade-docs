@@ -996,6 +996,8 @@ na koncie stop out wypada przy stracie 1 050 USD (cena 59,50 USD). Dlatego
 Stop Loss z kroku 5 jest ważny - to Ty decydujesz, gdzie kończy się strata,
 a nie mechanizm brokera.
 
+![Margin Stop: poziomy ceny i equity na koncie](assets/margin-stop.svg)
+
 ### Specyfika ropy
 
 - **Dźwignia:** 1:10 (depozyt 10%)

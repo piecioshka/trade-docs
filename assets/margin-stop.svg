@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" font-family="Arial, sans-serif" font-size="13">
+  <!-- Tło -->
+  <rect width="560" height="360" fill="#fafafa" rx="8"/>
+
+  <!-- Tytuł -->
+  <text x="280" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Margin Stop: gdzie naprawdę kończy się pozycja</text>
+  <text x="280" y="46" text-anchor="middle" font-size="11" fill="#888">LONG 0,1 lota ropy Brent (100 baryłek), depozyt 700 USD = całe saldo konta</text>
+
+  <!-- === LEWY PANEL: oś ceny === -->
+  <text x="150" y="70" text-anchor="middle" font-size="12" font-weight="bold" fill="#555">Cena ropy (USD)</text>
+  <line x1="90" y1="80" x2="90" y2="300" stroke="#bbb" stroke-width="1.5"/>
+
+  <!-- TP 75 -->
+  <line x1="90" y1="95" x2="270" y2="95" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="84" y="99" text-anchor="end" font-size="12" fill="#16a34a" font-weight="bold">75,00</text>
+  <text x="96" y="90" font-size="11" fill="#16a34a">Take Profit: +500 USD</text>
+
+  <!-- Wejście 70 -->
+  <line x1="90" y1="175" x2="270" y2="175" stroke="#333" stroke-width="2"/>
+  <text x="84" y="179" text-anchor="end" font-size="12" fill="#333" font-weight="bold">70,00</text>
+  <text x="96" y="170" font-size="11" fill="#333">Wejście (BUY)</text>
+
+  <!-- SL 68 -->
+  <line x1="90" y1="207" x2="270" y2="207" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="84" y="211" text-anchor="end" font-size="12" fill="#f59e0b" font-weight="bold">68,00</text>
+  <text x="96" y="221" font-size="11" fill="#b45309">Stop Loss: -200 USD (Ty decydujesz)</text>
+
+  <!-- Margin Stop 66,50 -->
+  <line x1="90" y1="231" x2="270" y2="231" stroke="#dc2626" stroke-width="2"/>
+  <text x="84" y="235" text-anchor="end" font-size="12" fill="#dc2626" font-weight="bold">66,50</text>
+  <text x="96" y="245" font-size="11" fill="#dc2626" font-weight="bold">Margin Stop: -350 USD (broker decyduje)</text>
+
+  <!-- 63 (mit) -->
+  <line x1="90" y1="287" x2="270" y2="287" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
+  <text x="84" y="291" text-anchor="end" font-size="12" fill="#999">63,00</text>
+  <text x="96" y="301" font-size="11" fill="#999">-700 USD: tu pozycja nigdy nie dojedzie</text>
+
+  <!-- === PRAWY PANEL: equity === -->
+  <text x="435" y="70" text-anchor="middle" font-size="12" font-weight="bold" fill="#555">Equity na koncie (USD)</text>
+
+  <!-- Legenda: linia Margin Level -->
+  <line x1="345" y1="86" x2="375" y2="86" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="381" y="90" font-size="10" fill="#dc2626" font-weight="bold">Margin Level 50% = 350 USD</text>
+
+  <!-- Oś -->
+  <line x1="330" y1="300" x2="540" y2="300" stroke="#bbb" stroke-width="1.5"/>
+
+  <!-- Linia Margin Level 50% (350 USD) -->
+  <line x1="330" y1="230" x2="540" y2="230" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Słupek: wejście 700 -->
+  <rect x="345" y="160" width="44" height="140" fill="#333" rx="2"/>
+  <text x="367" y="152" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">700</text>
+  <text x="367" y="316" text-anchor="middle" font-size="10" fill="#555">wejście</text>
+  <text x="367" y="328" text-anchor="middle" font-size="10" fill="#555">(100%)</text>
+
+  <!-- Słupek: po SL 500 -->
+  <rect x="415" y="200" width="44" height="100" fill="#f59e0b" rx="2"/>
+  <text x="437" y="192" text-anchor="middle" font-size="12" font-weight="bold" fill="#b45309">500</text>
+  <text x="437" y="316" text-anchor="middle" font-size="10" fill="#555">po SL</text>
+  <text x="437" y="328" text-anchor="middle" font-size="10" fill="#555">(71%)</text>
+
+  <!-- Słupek: Margin Stop 350 -->
+  <rect x="485" y="230" width="44" height="70" fill="#dc2626" rx="2"/>
+  <text x="507" y="222" text-anchor="middle" font-size="12" font-weight="bold" fill="#dc2626">350</text>
+  <text x="507" y="316" text-anchor="middle" font-size="10" fill="#555">bez SL</text>
+  <text x="507" y="328" text-anchor="middle" font-size="10" fill="#555">(50%)</text>
+
+  <!-- Podpis -->
+  <text x="280" y="350" text-anchor="middle" font-size="11" fill="#666">Margin Level = Equity / Depozyt × 100%. Przy 50% broker zamyka pozycję - stracić da się połowę, nie całość.</text>
+</svg>
