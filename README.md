@@ -381,6 +381,8 @@ Pre-market i after-market to sesje handlowe odbywające się **poza regularnymi 
 - **Regularna sesja** — 15:30-22:00 czasu polskiego (9:30-16:00 ET)
 - **After-market (after-hours)** — handel po zamknięciu giełdy. Na NYSE/NASDAQ: 22:00-02:00 czasu polskiego (16:00-20:00 ET)
 
+Uwaga na zmianę czasu: różnica między Polską a Nowym Jorkiem wynosi zwykle 6 godzin, ale USA i UE przestawiają zegary w różnych terminach. Przez ok. 3 tygodnie w roku (druga połowa marca i przełom października/listopada) różnica spada do 5 godzin i regularna sesja zaczyna się o 14:30, a kończy o 21:00 czasu polskiego.
+
 W tych sesjach handel odbywa się na platformach ECN (Electronic Communication Network), a nie na parkiecie giełdowym.
 
 ### Różnice między pre/after-market a regularnym rynkiem
