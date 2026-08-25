@@ -74,7 +74,7 @@
     - [Wielkość pozycji (position sizing)](#wielkość-pozycji-position-sizing)
     - [Take Profit (TP)](#take-profit-tp)
     - [Rolowanie (rollover)](#rolowanie-rollover)
-18. [Przykład 1: CFD na ropę naftową (OIL.WTI)](#przykład-1-cfd-na-ropę-naftową-oilwti)
+18. [Przykład 1: CFD na ropę naftową (OIL)](#przykład-1-cfd-na-ropę-naftową-oil)
 19. [Przykład 2: CFD na spółkę amerykańską (np. AAPL.US)](#przykład-2-cfd-na-spółkę-amerykańską-np-aaplus)
 20. [Przykład 3: CFD na spółkę polską (np. KGHM.PL)](#przykład-3-cfd-na-spółkę-polską-np-kghmpl)
 21. [Porównanie: ropa vs spółka US vs spółka PL](#porównanie-ropa-vs-spółka-us-vs-spółka-pl)
@@ -456,19 +456,19 @@ W tych sesjach handel odbywa się na platformach ECN (Electronic Communication N
 
 Forex, surowce i indeksy handluje się niemal 24 h w dni robocze, ale płynność nie jest równa przez całą dobę. Rynek "wędruje" za słońcem przez cztery główne centra finansowe (godziny w czasie polskim, orientacyjnie - przesuwają się o godzinę przy zmianach czasu):
 
-| Sesja                  | Godziny (czas polski) | Co jest aktywne                                                      |
-| ---------------------- | --------------------- | -------------------------------------------------------------------- |
-| Sydney                 | 23:00-08:00           | AUD, NZD; niska płynność                                             |
-| Tokio                  | 01:00-10:00           | JPY, indeksy azjatyckie (Nikkei)                                     |
-| Londyn                 | 09:00-18:00           | EUR, GBP, złoto, ropa Brent, indeksy europejskie (DAX, FTSE)         |
-| Nowy Jork              | 14:00-23:00           | USD, akcje US, ropa WTI, indeksy US (S&P 500, NASDAQ); dane makro US |
-| **Nakładka Londyn-NY** | **14:00-17:00**       | Największa płynność i zmienność na świecie - najwęższe spready       |
+| Sesja                  | Godziny (czas polski) | Co jest aktywne                                                                |
+| ---------------------- | --------------------- | ------------------------------------------------------------------------------ |
+| Sydney                 | 23:00-08:00           | AUD, NZD; niska płynność                                                       |
+| Tokio                  | 01:00-10:00           | JPY, indeksy azjatyckie (Nikkei)                                               |
+| Londyn                 | 09:00-18:00           | EUR, GBP, złoto, ropa Brent, indeksy europejskie (DAX, FTSE)                   |
+| Nowy Jork              | 14:00-23:00           | USD, akcje US, ropa (Brent i WTI), indeksy US (S&P 500, NASDAQ); dane makro US |
+| **Nakładka Londyn-NY** | **14:00-17:00**       | Największa płynność i zmienność na świecie - najwęższe spready                 |
 
 Praktyczne wnioski:
 
 - **Najlepszy czas na handel** większością instrumentów to 14:00-17:00 - działają oba największe centra, publikowane są dane z USA (zwykle 14:30), a spready są najwęższe
 - **Najgorszy czas** to 22:00-01:00 (między zamknięciem NY a otwarciem Tokio) - spready na CFD potrafią się kilkukrotnie rozszerzyć, a swap nalicza się właśnie wtedy
-- **Instrument dopasuj do sesji** - DAX ma sens w godzinach europejskich, a nie w nocy; ropa WTI najbardziej "żyje" po 14:30 (i po środowym raporcie EIA o zapasach, 16:30)
+- **Instrument dopasuj do sesji** - DAX ma sens w godzinach europejskich, a nie w nocy; ropa Brent najbardziej "żyje" po 14:30 (i po środowym raporcie EIA o zapasach w USA, 16:30)
 - **Korelacje między rynkami** - dolar, ropa i indeksy są powiązane: silny USD zwykle ciąży surowcom wycenianym w dolarze (złoto, ropa), a Twój wynik na instrumencie w USD dodatkowo zależy od kursu USD/PLN. Dwie pozycje na skorelowanych instrumentach (np. LONG złoto i LONG srebro albo LONG ropa i SHORT USD/CAD - kanadyjski dolar rośnie razem z ropą) to często jedno ryzyko w dwóch ticketach, nie dywersyfikacja
 
 ## Płynność
@@ -585,7 +585,7 @@ Zanim przejdziesz dalej, poznaj terminy, które zobaczysz na platformie xStation
 
 **Spread** to różnica między ceną kupna (ASK) a ceną sprzedaży (BID).
 
-Przykład: ropa WTI na platformie pokazuje:
+Przykład: ropa Brent (OIL) na platformie pokazuje:
 
 - BID: 70,00 USD (cena, po której możesz sprzedać)
 - ASK: 70,03 USD (cena, po której możesz kupić)
@@ -801,11 +801,11 @@ wolumen (loty) = (kapitał × ryzyko %) / (odległość SL × wartość 1 jednos
 
 Przykłady:
 
-| Instrument | Kapitał    | Ryzyko 1% | Wejście | SL     | Odległość SL | 1 lot to       | Wolumen                  |
-| ---------- | ---------- | --------- | ------- | ------ | ------------ | -------------- | ------------------------ |
-| OIL.WTI    | 10 000 USD | 100 USD   | 70      | 68     | 2 USD        | 1 000 baryłek  | 100 / (2 × 1 000) = 0,05 |
-| EUR/USD    | 5 000 USD  | 50 USD    | 1,1000  | 1,0975 | 25 pipsów    | 10 USD za pips | 50 / (25 × 10) = 0,2     |
-| AAPL.US    | 5 000 USD  | 50 USD    | 200     | 210    | 10 USD       | 1 akcja        | 50 / (10 × 1) = 5        |
+| Instrument  | Kapitał    | Ryzyko 1% | Wejście | SL     | Odległość SL | 1 lot to       | Wolumen                  |
+| ----------- | ---------- | --------- | ------- | ------ | ------------ | -------------- | ------------------------ |
+| OIL (Brent) | 10 000 USD | 100 USD   | 70      | 68     | 2 USD        | 1 000 baryłek  | 100 / (2 × 1 000) = 0,05 |
+| EUR/USD     | 5 000 USD  | 50 USD    | 1,1000  | 1,0975 | 25 pipsów    | 10 USD za pips | 50 / (25 × 10) = 0,2     |
+| AAPL.US     | 5 000 USD  | 50 USD    | 200     | 210    | 10 USD       | 1 akcja        | 50 / (10 × 1) = 5        |
 
 Dwie rzeczy, które warto zauważyć:
 
@@ -960,19 +960,21 @@ korekta — porównaj ceny dwóch kolejnych kontraktów futures na giełdzie baz
 
 ---
 
-## Przykład 1: CFD na ropę naftową (OIL.WTI)
+## Przykład 1: CFD na ropę naftową (OIL)
 
 ### O instrumencie
 
 Na XTB dostępne są dwa rodzaje ropy:
 
 - **OIL** — ropa Brent (z Morza Północnego), benchmark dla rynków
-  europejskich i światowych
+  europejskich i światowych; tego instrumentu dotyczą wszystkie przykłady
+  w tym przewodniku
 - **OIL.WTI** — ropa WTI (West Texas Intermediate), benchmark dla rynku
   amerykańskiego
 
-Cena OIL.WTI bazuje na notowaniach kontraktu futures na ropę WTI
-z amerykańskiej giełdy NYMEX.
+Cena OIL bazuje na notowaniach kontraktu futures na ropę Brent z giełdy
+ICE Futures Europe w Londynie. Obie ropy poruszają się zwykle razem, ale
+Brent bywa o kilka dolarów droższa (koszt transportu i różnice w jakości).
 
 ### Krok po kroku — jak otworzyć pozycję
 
@@ -1017,8 +1019,10 @@ a nie mechanizm brokera.
 
 ### Na co uważać?
 
-- Ropa jest **bardzo zmienna** — w 2020 roku cena spadła nawet do -40 USD
-  za baryłkę
+- Ropa jest **bardzo zmienna** — w kwietniu 2020 Brent spadła do ok. 16 USD
+  za baryłkę (najniżej od 1999 roku), a amerykańska WTI na jeden dzień
+  poniżej zera (-37 USD), bo kończące się kontrakty nie miały gdzie odebrać
+  fizycznej dostawy
 - Rolowanie jest automatyczne, ale przy dużych różnicach cen między seriami
   kontraktów może wpłynąć na Twój depozyt
 - Swapy na ropie mogą być znaczące — to nie jest instrument do trzymania
@@ -1142,7 +1146,7 @@ danych o cenach miedzi.
 
 ### Tabela porównawcza
 
-| Cecha                               | Ropa (OIL.WTI)       | Akcja US (AAPL.US)  | Akcja PL (KGHM.PL)    |
+| Cecha                               | Ropa Brent (OIL)     | Akcja US (AAPL.US)  | Akcja PL (KGHM.PL)    |
 | ----------------------------------- | -------------------- | ------------------- | --------------------- |
 | **Typ instrumentu**                 | Surowiec             | Akcja CFD           | Akcja CFD             |
 | **Dźwignia**                        | 1:10                 | 1:5                 | 1:5                   |
