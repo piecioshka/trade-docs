@@ -427,7 +427,7 @@ Nie zawsze, ale zazwyczaj tak. Zależy od kontekstu:
 ### Strategie handlu na rynku o mniejszej płynności
 
 - **Używaj zleceń z limitem (limit orders)** — nigdy zleceń market. Zlecenie limit gwarantuje, że nie kupisz/sprzedasz po gorszej cenie niż ustalona
-- **Handluj w godzinach największej aktywności** — na GPW sesja ciągła trwa 8:30-17:05 (największa aktywność tuż po otwarciu i przed zamknięciem), na rynkach US to godziny otwarcia i zamknięcia sesji
+- **Handluj w godzinach największej aktywności** — na GPW notowania ciągłe trwają 9:00-16:50 (największa aktywność tuż po otwarciu i przed zamknięciem), na rynkach US to godziny otwarcia i zamknięcia sesji
 - **Zmniejsz wielkość pozycji** — duże zlecenie na mało płynnym rynku samo przesuwa cenę przeciwko Tobie
 - **Dziel duże zlecenia** — zamiast jednego zlecenia na 1000 akcji, złóż 5 zleceń po 200 akcji w odstępach czasowych
 - **Poszerzaj Stop Loss** — na mało płynnym rynku knoty świec są dłuższe, więc SL ustawiony zbyt blisko zostanie łatwo aktywowany
@@ -968,7 +968,7 @@ danych o cenach miedzi.
 - **Spread:** może być **wyższy** niż na akcjach US, bo polskie spółki mają
   mniejszą płynność
 - **Swap:** naliczany codziennie
-- **Godziny handlu:** godziny sesji GPW — sesja ciągła 8:30-17:05 (z fixingiem otwarcia o 8:30 i dogrywką 17:05-17:15)
+- **Godziny handlu:** godziny sesji GPW — notowania ciągłe 9:00-16:50 (faza przed otwarciem 8:30-9:00, fixing otwarcia 9:00, fixing zamknięcia 17:00, dogrywka 17:00-17:05)
 - **Waluta:** PLN — brak ryzyka walutowego (w odróżnieniu od akcji US!)
 - **Liczba dostępnych spółek:** ograniczona do ~39 najpłynniejszych
 - **Dywidendy:** korekta dywidendowa, tak jak przy akcjach US CFD
@@ -1001,7 +1001,7 @@ danych o cenach miedzi.
 | **Swap**                            | Tak                  | Tak                 | Tak                   |
 | **Rolowanie**                       | Tak (co miesiąc)     | Nie                 | Nie                   |
 | **Dywidendy**                       | Nie dotyczy          | Korekta             | Korekta               |
-| **Godziny handlu**                  | ~24h (pon-pt)        | 15:30-22:00 CET     | 8:30-17:05 CET        |
+| **Godziny handlu**                  | ~24h (pon-pt)        | 15:30-22:00 CET     | 9:00-16:50 CET        |
 | **Zmienność**                       | Bardzo wysoka        | Wysoka              | Średnia/wysoka        |
 | **Dostępność SHORT**                | Tak                  | Tak                 | Tak                   |
 | **Odpowiednik „prawdziwych" akcji** | Nie istnieje         | Tak (0% prowizji)   | Tak (0% prowizji)     |
