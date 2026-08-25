@@ -669,6 +669,30 @@ miesiącami.
 - **SHORT (sprzedaż)** — stawiasz na spadek ceny. „Sprzedajesz" drogo,
   „odkupujesz" tanio. To coś, czego nie masz przy zwykłych akcjach.
 
+### Typy zleceń
+
+Na xStation możesz otworzyć pozycję od razu (po cenie rynkowej) albo zostawić
+zlecenie oczekujące, które aktywuje się dopiero przy określonej cenie.
+
+| Typ zlecenia      | Kiedy się wykonuje                                                   | Do czego służy                                                         |
+| ----------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Market**        | Natychmiast, po aktualnej cenie Bid/Ask                              | Wejście "teraz"; pewność wykonania, brak pewności ceny (poślizg)       |
+| **Buy Limit**     | Gdy cena **spadnie** do zadanego poziomu                             | Kupno taniej niż obecnie, np. na wsparciu                              |
+| **Sell Limit**    | Gdy cena **wzrośnie** do zadanego poziomu                            | Sprzedaż drożej niż obecnie, np. na oporze                             |
+| **Buy Stop**      | Gdy cena **wzrośnie** do zadanego poziomu                            | Wejście w wybicie w górę (kupujesz drożej, ale z potwierdzeniem ruchu) |
+| **Sell Stop**     | Gdy cena **spadnie** do zadanego poziomu                             | Wejście w wybicie w dół                                                |
+| **Trailing Stop** | SL podąża za ceną w stałej odległości, cofa się tylko w jedną stronę | Automatyczne "gonienie" trendu bez ręcznego przesuwania SL             |
+
+Jak to się ma do SL i TP: **Stop Loss** to technicznie zlecenie stop (po
+aktywacji staje się zleceniem market i wykonuje się po najlepszej dostępnej
+cenie), a **Take Profit** to zlecenie limit (wykonuje się po zadanej cenie lub
+lepszej). Stąd asymetria: TP nie da się wykonać gorzej niż ustawiłeś, a SL przy
+luce cenowej - owszem.
+
+Zasada praktyczna: na płynnym rynku w spokojnych godzinach zlecenie market jest
+w porządku. Przy niskiej płynności, w pre/after-market albo tuż po publikacji
+danych makro - używaj zleceń oczekujących z limitem, inaczej płacisz poślizgiem.
+
 ### Stop Loss (SL)
 
 Automatyczne zlecenie zamknięcia pozycji, gdy strata osiągnie ustalony poziom.
