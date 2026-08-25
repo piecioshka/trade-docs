@@ -6,6 +6,8 @@
 > (CFD, ETF, akcje, surowce) oraz praktycznych aspektów inwestowania
 > na platformie XTB.
 
+📄 Wersja PDF: [piecioshka.github.io/trade-docs/README.pdf](https://piecioshka.github.io/trade-docs/README.pdf)
+
 ---
 
 ## Spis treści
