@@ -559,6 +559,7 @@ prowizji).
   **micro lotami** (0,01 lota = 10 baryłek)
 - Na akcjach CFD: 1 lot = 1 akcja
 - Na forex: 1 lot = 100 000 jednostek waluty bazowej
+- W formularzu zlecenia na xStation pole "Wolumen" to właśnie liczba lotów. Minimalny wolumen to zazwyczaj **0,01 lota**, co pozwala zacząć z małymi kwotami
 
 ### Dźwignia finansowa (leverage)
 
@@ -836,11 +837,6 @@ kontraktu futures na jaki broker przechodzi. Krok po kroku:
 po rolowaniu w historii rachunku pojawi się pozycja „Korekta rolowania"
 z dokładną kwotą. Ale jeśli chcesz **wiedzieć z wyprzedzeniem**, ile wyniesie
 korekta — porównaj ceny dwóch kolejnych kontraktów futures na giełdzie bazowej
-
-### Wolumen
-
-Ile lotów otwierasz. Na XTB minimalny wolumen to zazwyczaj **0,01 lota**, co
-pozwala zacząć z małymi kwotami.
 
 ---
 
