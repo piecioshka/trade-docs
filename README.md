@@ -1410,6 +1410,10 @@ za prawdziwymi akcjami zamiast kontraktów.
 > ryzyka i koszty. Dane i przykłady liczbowe mają charakter poglądowy
 > i mogą nie odpowiadać aktualnym warunkom rynkowym.
 
+## Współtworzenie
+
+Jak zorganizowane jest repozytorium, jak dodać sekcję i wygenerować PDF: [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## License
 
 [The MIT License](https://piecioshka.mit-license.org) @ 2026
